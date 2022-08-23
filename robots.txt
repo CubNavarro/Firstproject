@@ -1,1 +1,1 @@
-Sitemap: https://fastpages.fast.ai/sitemap.xml
+Sitemap: https://cubnavarro.github.io/Firstproject/sitemap.xml
