@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Title",
-            "content": "- toc: true - badges: true - comments: true - categories: [jupyter] - author: Caleb Navarro - categories: [fastpages, jupyter] ## Random #collapse-output print(&#39;The comment #hello this is a collapseable text :P&#39;) `![](https://media.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif)` .",
-            "url": "https://cubnavarro.github.io/Firstproject/2022/08/25/Notebook.html",
-            "relUrl": "/2022/08/25/Notebook.html",
+            "content": "- toc: true - badges: true - comments: true - categories: [jupyter] msg = input(&quot;Enter a greeting: &quot;) print(msg) import getpass, sys questions = 3 correct = 0 def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def question_with_response(Answer): print() print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;What command is used to include other functions that were previously developed?&quot;) if rsp == &quot;import&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What command is used to evaluate correct or incorrect response in this example?&quot;) if rsp == &quot;if&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;) if rsp == &quot;expression&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Running cells with &#39;Python 3.10.6 64-bit&#39; requires ipykernel package. Run the following command to install &#39;ipykernel&#39; into the Python environment. Command: &#39;c:/Users/Caleb/AppData/Local/Programs/Python/Python310/python.exe -m pip install ipykernel -U --user --force-reinstall&#39; .",
+            "url": "https://cubnavarro.github.io/Firstproject/2022/08/25/questions.html",
+            "relUrl": "/2022/08/25/questions.html",
             "date": " • Aug 25, 2022"
         }
         
@@ -14,9 +14,9 @@
     
         ,"post1": {
             "title": "Title",
-            "content": "- toc: true - badges: true - comments: true - categories: [jupyter] msg = input(&quot;Enter a greeting: &quot;) print(msg) import getpass, sys questions = 3 correct = 0 def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def question_with_response(Answer): print() print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;What command is used to include other functions that were previously developed?&quot;) if rsp == &quot;import&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What command is used to evaluate correct or incorrect response in this example?&quot;) if rsp == &quot;if&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;) if rsp == &quot;expression&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Running cells with &#39;Python 3.10.6 64-bit&#39; requires ipykernel package. Run the following command to install &#39;ipykernel&#39; into the Python environment. Command: &#39;c:/Users/Caleb/AppData/Local/Programs/Python/Python310/python.exe -m pip install ipykernel -U --user --force-reinstall&#39; .",
-            "url": "https://cubnavarro.github.io/Firstproject/2022/08/25/JupyterNotebook.html",
-            "relUrl": "/2022/08/25/JupyterNotebook.html",
+            "content": "- toc: true - badges: true - comments: true - categories: [jupyter] - author: Caleb Navarro - categories: [fastpages, jupyter] ## Random #collapse-output print(&#39;The comment #hello this is a collapseable text :P&#39;) `![](https://media.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif)` .",
+            "url": "https://cubnavarro.github.io/Firstproject/2022/08/25/Notebook.html",
+            "relUrl": "/2022/08/25/Notebook.html",
             "date": " • Aug 25, 2022"
         }
         
