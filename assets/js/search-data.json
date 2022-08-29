@@ -13,8 +13,8 @@
   
     
         ,"post1": {
-            "title": "Learning Notebook",
-            "content": "About . This is my first page. . #collapse-show msg = &quot;Hello this is my first page&quot; print(msg) . .",
+            "title": "First Notebook",
+            "content": "About . This is my first page. . #collapse-show hello this is a secert message ohohhohohohohohoh . . Running cells with &#39;Python 3.10.6 64-bit&#39; requires ipykernel package. Run the following command to install &#39;ipykernel&#39; into the Python environment. Command: &#39;c:/Users/Caleb/AppData/Local/Programs/Python/Python310/python.exe -m pip install ipykernel -U --user --force-reinstall&#39; .",
             "url": "https://cubnavarro.github.io/Firstproject/fastpages/jupyter/2022/08/20/Notebook.html",
             "relUrl": "/fastpages/jupyter/2022/08/20/Notebook.html",
             "date": " • Aug 20, 2022"
