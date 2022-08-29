@@ -3,10 +3,10 @@
     
         "post0": {
             "title": "Fastpages Jupyter Notebook",
-            "content": "msg = input(&quot;Enter a greeting: &quot;) print(msg) import getpass, sys questions = 3 correct = 0 def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def question_with_response(Answer): print() print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;What command is used to include other functions that were previously developed?&quot;) if rsp == &quot;import&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What command is used to evaluate correct or incorrect response in this example?&quot;) if rsp == &quot;if&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;) if rsp == &quot;expression&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
-            "url": "https://cubnavarro.github.io/Firstproject/fastpages/jupyter/2022/08/28/questions.html",
-            "relUrl": "/fastpages/jupyter/2022/08/28/questions.html",
-            "date": " • Aug 28, 2022"
+            "content": "import getpass, sys questions = 3 correct = 0 def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def question_with_response(Answer): print() def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) question_and_answer(&quot;what is your favorite class in school?&quot;) question_and_answer(&quot;Do you like this class?&quot;) question_and_answer(&quot;How has your day been?&quot;) print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Who is the creator of Apple?&quot;) if rsp == &quot;Steve Jobs&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;what is 10+40?&quot;) if rsp == &quot;50&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;Is Toby the hotest of them all?&quot;) if rsp == &quot;yes&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
+            "url": "https://cubnavarro.github.io/Firstproject/fastpages/jupyter/2022/08/20/questions.html",
+            "relUrl": "/fastpages/jupyter/2022/08/20/questions.html",
+            "date": " • Aug 20, 2022"
         }
         
     
@@ -15,9 +15,9 @@
         ,"post1": {
             "title": "Learning Notebook",
             "content": "About . This is my first page. . #collapse-show msg = &quot;Hello this is my first page&quot; print(msg) . .",
-            "url": "https://cubnavarro.github.io/Firstproject/fastpages/jupyter/2022/08/28/Notebook.html",
-            "relUrl": "/fastpages/jupyter/2022/08/28/Notebook.html",
-            "date": " • Aug 28, 2022"
+            "url": "https://cubnavarro.github.io/Firstproject/fastpages/jupyter/2022/08/20/Notebook.html",
+            "relUrl": "/fastpages/jupyter/2022/08/20/Notebook.html",
+            "date": " • Aug 20, 2022"
         }
         
     
