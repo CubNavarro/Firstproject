@@ -9,4 +9,4 @@ permalink: /vocab/
 Toby Leader- the hottest person in the world
 
 the dopest duck
-![]({{site.baseurl }}/images/squishduck "this duck sick" )
+
