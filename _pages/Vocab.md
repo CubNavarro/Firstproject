@@ -5,9 +5,10 @@ title: Vocabulary
 permalink: /vocab/
 ---
 
-# Vocab Page
+## Vocab Page
 
 Toby Leader- the hottest person in the world
 
 the dopest duck
-![]({{site.baseurl }}/images/Deathduck.gif )
+
+![]({{site.baseurl }}/images/squishduck.png )
