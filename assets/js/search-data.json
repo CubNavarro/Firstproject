@@ -72,6 +72,17 @@
 
   
       ,"page1": {
+          "title": "",
+          "content": ". toc: true layout: page title: Vocabulary permalink: /vocab/ . Vocab Page . Toby Leader- the hottest person in the world . the dopest duck .",
+          "url": "https://cubnavarro.github.io/Firstproject/_pages/Vocab.html",
+          "relUrl": "/_pages/Vocab.html",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://cubnavarro.github.io/Firstproject/about/",
@@ -103,7 +114,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://cubnavarro.github.io/Firstproject/robots.txt",
