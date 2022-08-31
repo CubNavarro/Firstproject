@@ -1,8 +1,8 @@
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
-$tomato : #FF6347; 
-// $tomato orange : #FF6347;
+$tomato: #FF6347; 
+// $tomato : #47e3ff;
 $overlay: mix($tomato, white, 95%);
 $overlay-light: mix($tomato, white, 86%);
 
@@ -12,7 +12,7 @@ html, body, input, textarea, select, button {
 }
 
 a {
-    color: rgb(75, 186, 255) !important;
+    color: rgb(42, 253, 0) !important;
 }
 
 a:hover {
