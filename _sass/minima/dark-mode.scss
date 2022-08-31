@@ -1,8 +1,8 @@
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
-$website-color: #fffb00; 
-// $website-color : #FF6347;
+$website-color: #EA6F0B; 
+// $website-color : #EA6F0B;
 $overlay: mix($website-color, white, 95%);
 $overlay-light: mix($website-color, white, 86%);
 
@@ -12,7 +12,7 @@ html, body, input, textarea, select, button {
 }
 
 a {
-    color: rgb(255, 0, 212) !important;
+    color: rgb(11, 134, 234) !important;
 }
 
 a:hover {
