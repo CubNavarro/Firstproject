@@ -11,4 +11,4 @@ Toby Leader- the hottest person in the world
 
 the dopest duck
 
-![]({{site.baseurl }}/images/squishduck.png )
+![]({{site.baseurl }}/images/Deathduck.gif )
