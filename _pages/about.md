@@ -1,11 +1,11 @@
 ---
+toc: true
 layout: page
 title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Hello my name is Caleb Navarro this is my about me page and has cool information yeaaaaaaaa
 
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I am in 11 grade at Del Norte High School and I am on the Varsity waterpolo team and in the robotics club. I love to hangout with my friends and enjoy playing videogames.

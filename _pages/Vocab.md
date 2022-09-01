@@ -7,7 +7,7 @@ permalink: /vocab/
 
 ## Vocab Page
 
-Toby Leader- the hottest person in the world
+Toby Leeder- the hottest person in the world
 
 the dopest duck
 
