@@ -13,8 +13,8 @@
   
     
         ,"post1": {
-            "title": "Table",
-            "content": "|Period 1|Period 2|Period 3|Period 4|Period 5| |Ap Calc|Ceramics|APCSP|HPE|Spanish 4| . Input In [1] |test|Test| ^ SyntaxError: invalid syntax .",
+            "title": "Class Schedule",
+            "content": "|Period 1|Period 2|Period 3|Period 4|Period 5| |Ap Calc|Ceramics|APCSP|HPE|Spanish 4| .",
             "url": "https://cubnavarro.github.io/Firstproject/week%202/2022/09/05/_Table.html",
             "relUrl": "/week%202/2022/09/05/_Table.html",
             "date": " • Sep 5, 2022"
