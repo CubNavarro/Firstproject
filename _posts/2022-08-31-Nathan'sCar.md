@@ -7,5 +7,5 @@ title: Nathan"s Car
 
 This is Nathan's Car
 
-![]({{site.baseurl }}/images/Nathancar2.jpg "car")
+![]({{site.baseurl }}/images/Nathancar2.png "car")
 
