@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-Categories: [Week 1]
+categories: [Pictures, Week 1]
 title: Nathan"s Car
 ---
 
