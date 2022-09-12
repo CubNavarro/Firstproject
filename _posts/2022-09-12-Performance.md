@@ -11,7 +11,7 @@ title: Performance Task
 
 2. More ideas are coming
 
-## things to Consider
+## Things to Consider
 
 ### Copying other Apps
 
