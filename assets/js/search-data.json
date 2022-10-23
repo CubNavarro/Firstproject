@@ -70,8 +70,8 @@
         ,"post6": {
             "title": "Python API",
             "content": "import requests url = &quot;https://nfl-schedule.p.rapidapi.com/v1/schedules&quot; headers = { &quot;X-RapidAPI-Key&quot;: &quot;7d3a48cfe5msh3e8d80273f9e62ap1ac0b4jsn5db7034eaa7e&quot;, &quot;X-RapidAPI-Host&quot;: &quot;nfl-schedule.p.rapidapi.com&quot; } response = requests.request(&quot;GET&quot;, url, headers=headers) print(&quot;NFL Scheduled games&quot;) x = 0 while x &lt;= 15: print(response.json().get(&quot;data&quot;)[x].get(&quot;name&quot;)) x += 1 . NFL Scheduled games Indianapolis Colts at Denver Broncos New York Giants at Green Bay Packers Pittsburgh Steelers at Buffalo Bills Los Angeles Chargers at Cleveland Browns Chicago Bears at Minnesota Vikings Detroit Lions at New England Patriots Seattle Seahawks at New Orleans Saints Miami Dolphins at New York Jets Atlanta Falcons at Tampa Bay Buccaneers Tennessee Titans at Washington Commanders Houston Texans at Jacksonville Jaguars San Francisco 49ers at Carolina Panthers Dallas Cowboys at Los Angeles Rams Philadelphia Eagles at Arizona Cardinals Cincinnati Bengals at Baltimore Ravens Las Vegas Raiders at Kansas City Chiefs .",
-            "url": "https://cubnavarro.github.io/Firstproject/week%207/2022/10/11/PythonAPI.html",
-            "relUrl": "/week%207/2022/10/11/PythonAPI.html",
+            "url": "https://cubnavarro.github.io/Firstproject/API/PythonAPI",
+            "relUrl": "/API/PythonAPI",
             "date": " • Oct 11, 2022"
         }
         
@@ -169,8 +169,8 @@
         ,"post15": {
             "title": "Nathan's Car",
             "content": "This is Nathan’s Car . .",
-            "url": "https://cubnavarro.github.io/Firstproject/pictures/week%201/2022/08/31/Nathan'sCar.html",
-            "relUrl": "/pictures/week%201/2022/08/31/Nathan'sCar.html",
+            "url": "https://cubnavarro.github.io/Firstproject/random/NathansCar",
+            "relUrl": "/random/NathansCar",
             "date": " • Aug 31, 2022"
         }
         
@@ -180,8 +180,8 @@
         ,"post16": {
             "title": "The Mega Duck",
             "content": "This is the mega hot duck . . .",
-            "url": "https://cubnavarro.github.io/Firstproject/pictures/week%201/2022/08/31/GifDuck.html",
-            "relUrl": "/pictures/week%201/2022/08/31/GifDuck.html",
+            "url": "https://cubnavarro.github.io/Firstproject/random/Ducks",
+            "relUrl": "/random/Ducks",
             "date": " • Aug 31, 2022"
         }
         
@@ -190,7 +190,7 @@
     
         ,"post17": {
             "title": "Jokes API",
-            "content": "| Overview | Covid19 RapidAPI | Jokes API | Users Database | . Joke HaHa Boohoo .",
+            "content": "| PythonAPI | Nathan&#39;s Car | Jokes API | Ducks | . Joke HaHa Boohoo .",
             "url": "https://cubnavarro.github.io/Firstproject/data/jokes",
             "relUrl": "/data/jokes",
             "date": " • Jul 10, 2022"
