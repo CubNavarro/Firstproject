@@ -30,22 +30,22 @@ This Quiz had ups and downs though out the whole thing some question were hard a
 
 Question 16 was about Internet and sending things over the internet and how mesages are broken into packages.
 
-![]({{site.baseurl }}/images/Question16)
+![]({{site.baseurl }}/images/Question16.png)
 
 Question 17 was pretty difficult for me and my group members helped explain the answer and how to get it and really helped me though the quiz.
 
-![]({{site.baseurl }}/images/Question17)
+![]({{site.baseurl }}/images/Question17.png)
 
 Question 19 - 22 was a about Binary numbers and I really had a challenging time and was hard for me to understand them.
 
-![]({{site.baseurl }}/images/Question19)
+![]({{site.baseurl }}/images/Question19.png)
 
-![]({{site.baseurl }}/images/Question22)
+![]({{site.baseurl }}/images/Question22.png)
 
 Question 24 was more binary numbers and need help from my group. It looked easy but when I really though about it it was complex and relized how it worked.
 
-![]({{site.baseurl }}/images/Question24)
+![]({{site.baseurl }}/images/Question24.png)
 
 Question 39 was simple but I over though it and put hello as my orinal answer then changed it to 4 because I saw "a Valid Index for the list".
 
-![]({{site.baseurl }}/images/Question39)
+![]({{site.baseurl }}/images/Question39.png)
