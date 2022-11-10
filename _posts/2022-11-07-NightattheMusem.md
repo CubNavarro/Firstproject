@@ -2,8 +2,8 @@
 title: Night At The Museum Blog
 layout: default
 description: This is my blog about the night at ther Museum
-categories: []
-tags: [Week 13]
+categories: [Week 13]
+tags: []
 ---
 
 # Photos From Night at the Museum

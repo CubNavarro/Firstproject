@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: This is my thoughs of the tests
-categories: [Week 6,Week 7]
+categories: [Week 6,Week 7, Week 13]
 title: 4 Collegeboard Quizes
 ---
  
