@@ -21,3 +21,25 @@ This quiz was tricky because I know that I understand it and still the diagrams 
 ## Copy of Identifying and Correcting Errors Quiz
 > Score: 3/3
 This quiz was the easiest and I understood it the most and ended up with 3/3. This was easy overall.
+
+## Final Test
+> Score:
+Question 16 was about Internet and sending things over the internet and how mesages are broken into packages
+
+![]({{site.baseurl }}/images/Question16)
+
+Question 17 was
+
+Question 19 - 22 was a about Binary numbers and I really had a challenging time and was hard for me to understand them
+
+![]({{site.baseurl }}/images/Question19)
+
+![]({{site.baseurl }}/images/Question22)
+
+Question 24 was more binary numbers and need help from my group
+
+![]({{site.baseurl }}/images/Question24)
+
+Question 39 was simple but I over though it and put hello as my orinal answer then changed it to 4 because I saw "a Valid Index for the list"
+
+![]({{site.baseurl }}/images/Question39)
