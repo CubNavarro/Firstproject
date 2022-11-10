@@ -23,23 +23,29 @@ This quiz was tricky because I know that I understand it and still the diagrams 
 This quiz was the easiest and I understood it the most and ended up with 3/3. This was easy overall.
 
 ## Final Test
-> Score:
-Question 16 was about Internet and sending things over the internet and how mesages are broken into packages
+> Score: 45/50 
+
+This Quiz had ups and downs though out the whole thing some question were hard and others were easy but under are some notes and things I bloged about whil I took the quiz and After.
+
+
+Question 16 was about Internet and sending things over the internet and how mesages are broken into packages.
 
 ![]({{site.baseurl }}/images/Question16)
 
-Question 17 was
+Question 17 was pretty difficult for me and my group members helped explain the answer and how to get it and really helped me though the quiz.
 
-Question 19 - 22 was a about Binary numbers and I really had a challenging time and was hard for me to understand them
+![]({{site.baseurl }}/images/Question17)
+
+Question 19 - 22 was a about Binary numbers and I really had a challenging time and was hard for me to understand them.
 
 ![]({{site.baseurl }}/images/Question19)
 
 ![]({{site.baseurl }}/images/Question22)
 
-Question 24 was more binary numbers and need help from my group
+Question 24 was more binary numbers and need help from my group. It looked easy but when I really though about it it was complex and relized how it worked.
 
 ![]({{site.baseurl }}/images/Question24)
 
-Question 39 was simple but I over though it and put hello as my orinal answer then changed it to 4 because I saw "a Valid Index for the list"
+Question 39 was simple but I over though it and put hello as my orinal answer then changed it to 4 because I saw "a Valid Index for the list".
 
 ![]({{site.baseurl }}/images/Question39)
