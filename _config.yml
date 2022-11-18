@@ -39,9 +39,6 @@ baseurl: "/Firstproject" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    instagram: Cubnavarro
-    twitter: fastdotai
-    github: cubnavarro
 
 # Set this to true to get LaTeX math equation support
 use_math: 
