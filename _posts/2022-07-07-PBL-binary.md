@@ -3,6 +3,7 @@ title: Binary Hacks
 layout: default
 description: A Binary Math illustrative application using HTML, Liquid, and JavaScript.
 type: pbl
+categories: [Week 13]
 ---
 
 <!-- Hack 1: add a character display to text when 8 bits, determine if printable or not printable -->
