@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>
 
@@ -831,6 +831,69 @@ False</p>
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">chickendict</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">"meat"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+  <span class="s2">"prepareTime"</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span>
+  <span class="s2">"name"</span> <span class="p">:</span> <span class="s2">"chicken alfredo"</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">cheesedict</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">"meat"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+  <span class="s2">"prepareTime"</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+  <span class="s2">"name"</span> <span class="p">:</span> <span class="s2">"cheese quesadilla"</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">beefdict</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">"meat"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+  <span class="s2">"prepareTime"</span><span class="p">:</span> <span class="mi">150</span><span class="p">,</span>
+  <span class="s2">"name"</span> <span class="p">:</span> <span class="s2">"beef wellington"</span><span class="p">,</span>
+<span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">mealPrep</span><span class="p">(</span><span class="n">prep</span><span class="p">):</span>
+  <span class="k">if</span> <span class="n">prep</span><span class="p">[</span><span class="s2">"prepareTime"</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">30</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">prep</span><span class="p">[</span><span class="s2">"meat"</span><span class="p">]</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="n">prep</span><span class="p">[</span><span class="s2">"name"</span><span class="p">],</span> <span class="s2">"is good for how much time you have"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">"You have no meat you can't make"</span><span class="p">,</span> <span class="n">prep</span><span class="p">[</span><span class="s2">"name"</span><span class="p">])</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"You don't have enough time for"</span><span class="p">,</span> <span class="n">prep</span><span class="p">[</span><span class="s2">"name"</span><span class="p">])</span>
+
+<span class="n">mealPrep</span><span class="p">(</span><span class="n">chickendict</span><span class="p">)</span>
+<span class="n">mealPrep</span><span class="p">(</span><span class="n">cheesedict</span><span class="p">)</span>
+<span class="n">mealPrep</span><span class="p">(</span><span class="n">beefdict</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>You don't have enough time for chicken alfredo
+cheese quesadilla is good for how much time you have
+You don't have enough time for beef wellington
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
