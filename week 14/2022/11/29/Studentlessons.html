@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      11 min read
+      13 min read
     
 </span></p>
 
@@ -170,6 +170,11 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#Question-7">Question 7 </a></li>
 <li class="toc-entry toc-h3"><a href="#Question-8">Question 8 </a></li>
 <li class="toc-entry toc-h3"><a href="#Question-9">Question 9 </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Section-14-15">Section 14-15 </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Vocab">Vocab </a></li>
 </ul>
 </li>
 </ul><!--
@@ -1138,6 +1143,169 @@ if CANTURNLEFT{
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Section-14-15">
+<a class="anchor" href="#Section-14-15" aria-hidden="true"><span class="octicon octicon-link"></span></a>Section 14-15<a class="anchor-link" href="#Section-14-15"> </a>
+</h2>
+<p>This is my notes and hacks for the sections 14 and 15</p>
+<h3 id="Vocab">
+<a class="anchor" href="#Vocab" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vocab<a class="anchor-link" href="#Vocab"> </a>
+</h3>
+<p>Documentation: Text that explains the what, how, or why of your code.</p>
+<p>Libraries: A collection of prewritten code or procedures that coders can use to maximize their efficiency.</p>
+<p>Application Programming Interface: A type of software through several computers are able to communicate information amongst each other.</p>
+<p>Notes</p>
+<p>Libraries contain procedures that make programming easier.</p>
+<p>procedures are especially good for reusing segments of code by calling the procedure.</p>
+<p>random procedure: Random(a,b) provides a random number in the range [a, b]</p>
+<p>Hacks
+Multiple Choice</p>
+<p>B) a random integer between 'a' and 'b' inclusive</p>
+<p>A) x = start, y = stop, z = step</p>
+<p>A) random.item() does not exist</p>
+<p>Short Answer</p>
+<p>Libraries are convenient because they provide procedures and prewritten code to maximize the efficiency of programmers</p>
+<p>This procedure takes a list of strings and returns who will buy the meal today</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> 
+
+<span class="c1"># takes user input, puts it into a list of names</span>
+<span class="n">names_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Give me everybody's names, seperated by a comma."</span><span class="p">)</span>
+<span class="n">names</span> <span class="o">=</span> <span class="n">names_string</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">","</span><span class="p">)</span>
+
+<span class="n">num_items</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+
+<span class="c1"># uses random to choose a random number</span>
+<span class="n">random_choice</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_items</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># associates random number with a name</span>
+<span class="n">person_who_will_pay</span> <span class="o">=</span> <span class="n">names</span><span class="p">[</span><span class="n">random_choice</span><span class="p">]</span>
+
+<span class="c1"># prints name</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">person_who_will_pay</span><span class="si">}</span><span class="s2"> is going to buy the meal today!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Aiden is going to buy the meal today!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="n">NAMES</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Aiden"</span><span class="p">,</span> <span class="s2">"Brayden"</span><span class="p">,</span> <span class="s2">"Bradley"</span><span class="p">,</span> <span class="s2">"Harambe"</span><span class="p">,</span> <span class="s2">"Charles"</span><span class="p">,</span> <span class="s2">"BigChungus"</span><span class="p">,</span> <span class="s2">"Chad"</span><span class="p">,</span> <span class="s2">"Brett"</span><span class="p">,</span> <span class="s2">"Dorian"</span><span class="p">,</span> <span class="s2">"Ryan"</span><span class="p">,</span> <span class="s2">"Varalu"</span><span class="p">,</span> <span class="s2">"Rohin"</span><span class="p">,</span> <span class="s2">"Advay"</span><span class="p">,</span> <span class="s2">"SmallChungus"</span><span class="p">]</span>
+<span class="n">rand_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">def</span> <span class="nf">randomPeople</span><span class="p">(</span><span class="n">names</span><span class="p">,</span> <span class="n">new_names</span><span class="p">):</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">count</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="n">number</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">new_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">names</span><span class="p">[</span><span class="n">number</span><span class="p">])</span>
+        <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">new_names</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">randomPeople</span><span class="p">(</span><span class="n">NAMES</span><span class="p">,</span> <span class="n">rand_list</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>['Rohin', 'Dorian', 'Varalu', 'BigChungus', 'Dorian']
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="n">score1</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">score2</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">def</span> <span class="nf">greatestRoll</span><span class="p">():</span>
+    <span class="n">score1</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+    <span class="n">score2</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">score1</span> <span class="o">&gt;</span> <span class="n">score2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Player 1 won with a score of "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" points!"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">score1</span> <span class="o">&lt;</span> <span class="n">score2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Player 2 won with a score of "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" points!"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">score1</span> <span class="o">==</span> <span class="n">score2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Both players tied with "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" points!"</span><span class="p">)</span>
+
+<span class="n">greatestRoll</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Player 1 won with a score of 7 points!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
