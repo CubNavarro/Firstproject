@@ -6,7 +6,6 @@ categories: [Week 17]
 title: Performance Task 2
 ---
 
-# Student 3
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|0|0| Because they did not describe the code's functionality|
@@ -16,7 +15,7 @@ title: Performance Task 2
 |Algorithm Implementation|0|0| as there was no evidence of how a student could recreate the code. |
 |Testing|1|1| as the student showed responses, showed multiple forms of calling data, and met all criteria.|
 
-# Student 4
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|1|1| as the student demonstrated inputs, functionality, and outputs. |
@@ -26,7 +25,7 @@ title: Performance Task 2
 |Algorithm Implementation|1|1|Student demonstrated sequences,  selections, and iterations|
 |Testing|1|1| Student was able to show two different calls.|
 
-# Student 5
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|0|0|The student did not really show a purpose for the code. |
@@ -36,7 +35,7 @@ title: Performance Task 2
 |Algorithm Implementation|0|1|the student described how people would be able to manipulate the code and recreate it. |
 |Testing|0|1|  I think that the code is too similar and collegeboard wants distinct calls in two different ways.|
 
-# Student 6
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|1|1|All criteria was met and the purpose of the program was shown. |
