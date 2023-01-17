@@ -22,11 +22,3 @@ title: Performance Task 1
 |Managing Complexity|1|1| Has code segment showing a list and explains how it could be different.|
 |Procedural Abstraction|0|1| This response describes the code segment but it never had a clear code segment depicted that showed the student developed procedure with 1+ parameter or SDP being called.|
 |Algorithm Implementation|0|1| Has sequencing and selection but doesn't have iteration and doesn't explain.|
-
-
-
-
-
-
-
-
