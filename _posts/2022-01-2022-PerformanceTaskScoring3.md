@@ -4,6 +4,7 @@ layout: post
 description: This is the Performance task with my submissions 1 & 2
 categories: [Week 17]
 title: Performance Task 3
+permalink: /collageboardScoring
 ---
 
 |Reporting Category|Student Score|College Board Score|Comments|
