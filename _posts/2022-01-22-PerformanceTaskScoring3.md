@@ -4,7 +4,6 @@ layout: post
 description: This is the Performance task with my submissions 1 & 2
 categories: [Week 17]
 title: Performance Task 3
-permalink: /collageboardScoring
 ---
 
 |Reporting Category|Student Score|College Board Score|Comments|
@@ -16,6 +15,7 @@ permalink: /collageboardScoring
 |Algorithm Implementation|1|1|Had an if statement known as RPS which meant that |
 |Testing|1|1|The app was tested very well and it included all parts of testing for the app|
 
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|1|1|Video had a clear input and output which is required also purpose is clear in the written explanation. As it is to serve as entertainment for the user|
@@ -25,6 +25,7 @@ permalink: /collageboardScoring
 |Algorithm Implementation|1|1| Repeated loop with replace list meeting the criteria. Also used booleans to check true or false in order to keep word accuracy|
 |Testing|1|1|The word guessser was very good and all part were correct|
 
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|1|1|Video had a clear input and output which is required also the response contained clear funtion/purpose.|
@@ -33,6 +34,7 @@ permalink: /collageboardScoring
 |Procedural Abstraction|0|0|No parameters were used with left there no procedures|
 |Algorithm Implementation|0|0|They use update screen however no other algorthms were used leaving the code to be pointless|
 |Testing|0|0|The app was tested very well and it included all parts of testing for the app the point|
+
 
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
