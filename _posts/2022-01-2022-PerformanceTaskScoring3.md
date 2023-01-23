@@ -6,8 +6,6 @@ categories: [Week 18]
 title: Performance Task 3
 ---
 
-
-
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
 |Program Purpose and Function|1|1|College Board gave the point due to the fact all was correct|
@@ -17,14 +15,16 @@ title: Performance Task 3
 |Algorithm Implementation|1|1| 	Had an if statement known as RPS which meant that |
 |Testing|1|1| The app was tested very well and it included all parts of testing for the app|
 
+
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
-|Program Purpose and Function|1|1|	Video had a clear input and output which is required also purpose is clear in the written explanation. As it is to serve as entertainment for the user|
+|Program Purpose and Function|1|1|Video had a clear input and output which is required also purpose is clear in the written explanation. As it is to serve as entertainment for the user|
 |Data Abstraction|1|1|The response shows how data is store in order to itterate the list of letofguessword which stores data and is acsess througout the code.|
 |Managing Complexity|1|1| It used the game for the user to guess the word and kept a data storage which made it simple|
 |Procedural Abstraction|1|1|Guess word parameter was usen giving it a 1|
 |Algorithm Implementation|1|1| Repeated loop with replace list meeting the criteria. Also used booleans to check true or false in order to keep word accuracy|
 |Testing|1|1|The word guessser was very good and all part were correct|
+
 
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
@@ -34,6 +34,7 @@ title: Performance Task 3
 |Procedural Abstraction|0|0|No parameters were used with left there no procedures|
 |Algorithm Implementation|0|0|They use update screen however no other algorthms were used leaving the code to be pointless|
 |Testing|0|0|The app was tested very well and it included all parts of testing for the app the point|
+
 
 |Reporting Category|Student Score|College Board Score|Comments|
 |------------------------|
