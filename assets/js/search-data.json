@@ -403,7 +403,7 @@
   
       ,"page1": {
           "title": "Review Page",
-          "content": "WE APPRECIATE YOUR REVIEW! . Your review will help us to improve our web hosting quality products, and customer services. . Your personal info Rate our overall services. 1 2 3 4 5 Write your feedback. Submit",
+          "content": ". This is a heading in a div element . This is some text in a div element. . . WE APPRECIATE YOUR REVIEW! . Your review will help us to improve our web hosting quality products, and customer services. . Your personal info Rate our overall services. 1 2 3 4 5 Write your feedback. Submit",
           "url": "https://cubnavarro.github.io/Firstproject/_pages/Review.html",
           "relUrl": "/_pages/Review.html",
           "date": ""
