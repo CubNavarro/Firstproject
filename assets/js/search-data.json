@@ -413,6 +413,17 @@
 
   
       ,"page2": {
+          "title": "HTML code testing",
+          "content": "&lt;div class =&quot;temp123&quot;&gt; &lt;input type=&quot;text&quot; /&gt; &lt;/div&gt; .",
+          "url": "https://cubnavarro.github.io/Firstproject/_pages/Testing.html",
+          "relUrl": "/_pages/Testing.html",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page3": {
           "title": "Vocabulary",
           "content": "Vocab Page . Markdown - A coding language for text . HTML - Hyper Text Markup Language . def - indicates the terms being defined with the next sentence . Function - A block of code and when it is ran it is called a function . if statement - if is a conditional statement . Conditional - a set of code that is used if a requirment is met . Jekyll - A language used for some part of fastpages . Liquid - A language used to build the tags page .",
           "url": "https://cubnavarro.github.io/Firstproject/vocab/",
@@ -423,7 +434,7 @@
   
 
   
-      ,"page3": {
+      ,"page4": {
           "title": "About Me",
           "content": "Hello my name is Caleb Navarro this is my about me page and has cool information yeaaaaaaaa . I am in 11 grade at Del Norte High School and I am on the Varsity waterpolo team and in the robotics club. I love to hangout with my friends and enjoy playing videogames. .",
           "url": "https://cubnavarro.github.io/Firstproject/about/",
@@ -462,7 +473,7 @@
   
 
   
-      ,"page15": {
+      ,"page16": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://cubnavarro.github.io/Firstproject/robots.txt",
