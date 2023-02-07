@@ -11,25 +11,27 @@ title: HTML code testing
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title> Hotels Selection</title>
-
-
+  <meta charset="UTF-8">
+  <title>Hotels Selection</title>
+  <style>
+    body {
+      background-color: aliceblue;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
 </head>
 <body>
-   <h1> Hello, Please provide the name of the hotel you would like to stay in?</h1>
-   <input id="userInput">
-   <button onclick="myFunction()"> Submit </button>
-   <h1 id="message"></h1>
-   <style>
-       body {background-color:aliceblue; text-align: center; font-family: 'Times New Roman', Times, serif ;}
-   </style>
-   <script>
-       function myFunction() {
-           let userInput = document.querySelector("#userInput");
-           let message = document.querySelector("#message");
-           message.innerHTML = "Okay Great Choice You Will Be Staying At The >>>" + userInput.value; 
-       }
-   </script>
+  <h1>Hello, Please provide the name of the hotel you would like to stay in?</h1>
+  <input id="userInput">
+  <button id="submitBtn">Submit</button>
+  <h1 id="message"></h1>
+  <script>
+    document.querySelector("#submitBtn").addEventListener("click", function() {
+      let userInput = document.querySelector("#userInput").value;
+      let message = document.querySelector("#message");
+      message.innerHTML = "Okay Great Choice You Will Be Staying At The >>> " + userInput;
+    });
+  </script>
 </body>
 </html>
