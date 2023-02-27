@@ -1,6 +1,6 @@
 ---
 title: Night At The Museum Blog
-layout: default
+layout: base
 description: This is my blog about the night at ther Museum
 categories: [Week 13]
 tags: []
