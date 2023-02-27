@@ -414,7 +414,7 @@
   
       ,"page1": {
           "title": "Review Page",
-          "content": "Website Review Page . Website Review Page . Home | About Us | Contact Us | . . Write a Review . Name: Email: Rating: Select a rating 5 stars 4 stars 3 stars 2 stars 1 star Review: Recent Reviews . John Doe . Rating: 5 stars . &quot;This website is amazing! I love the design and the content.&quot; . | Jane Smith . Rating: 4 stars . &quot;Overall, a good website, but there&#39;s room for improvement.&quot; . | . &copy; 2023 Website Review Page. All rights reserved. . .",
+          "content": "Write a Review . Name: Email: Rating: Select a rating 5 stars 4 stars 3 stars 2 stars 1 star Review: Recent Reviews . John Doe . Rating: 5 stars . &quot;This website is amazing! I love the design and the content.&quot; . | Jane Smith . Rating: 4 stars . &quot;Overall, a good website, but there&#39;s room for improvement.&quot; . | . &copy; 2023 Website Review Page. All rights reserved. . &lt;/body&gt; .",
           "url": "https://cubnavarro.github.io/Firstproject/_pages/Review.html",
           "relUrl": "/_pages/Review.html",
           "date": ""
