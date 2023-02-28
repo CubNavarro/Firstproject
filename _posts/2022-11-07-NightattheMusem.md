@@ -14,12 +14,16 @@ I took images from the differnet class projects that I looked at during the nigh
 
 
 ![]({{site.baseurl }}/images/NightofTheMuseum.png)
+This is a pretty cool dragon that looks like there is alot of effort and work I would love to be this create and just be able to do this and make this type of work
 
 ![]({{site.baseurl }}/images/NightofTheMuseum2.png)
+This drawing is really detaild and it would be cool to be able to draw this good it looks really nice and it has a bunch of dragons and the castle is really cool.
 
 ![]({{site.baseurl }}/images/NightofTheMuseum3.png)
+This pumkin is really cool and i really like the color and how its super shinny I really like it
 
 ![]({{site.baseurl }}/images/NightofTheMuseum4.png)
+This art was cool cause of the colors and the different shapes that were used and the like bubble circles and layering with color
 
 ![]({{site.baseurl }}/images/NightofTheMuseum5.png)
-
+This drawing is really sick with color and the big ben and has a ton of detail and work that was put into this drawing
