@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 categories: [Week 14]
 title: Extra Credit Notes
 ---

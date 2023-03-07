@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 description: This is the Performance task with my submissions 1 & 2
 categories: [Week 17]
 title: Performance Task 2
