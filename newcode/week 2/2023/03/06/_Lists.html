@@ -1,65 +1,77 @@
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lists and Dictionary | APCSP</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Lists and Dictionary" />
+<meta name="author" content="Caleb Navarro" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My website for the APCSP class." />
+<meta property="og:description" content="My website for the APCSP class." />
+<link rel="canonical" href="https://cubnavarro.github.io/Firstproject/newcode/week%202/2023/03/06/_Lists.html" />
+<meta property="og:url" content="https://cubnavarro.github.io/Firstproject/newcode/week%202/2023/03/06/_Lists.html" />
+<meta property="og:site_name" content="APCSP" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-06T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lists and Dictionary" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Caleb Navarro"},"dateModified":"2023-03-06T00:00:00-06:00","datePublished":"2023-03-06T00:00:00-06:00","description":"My website for the APCSP class.","headline":"Lists and Dictionary","mainEntityOfPage":{"@type":"WebPage","@id":"https://cubnavarro.github.io/Firstproject/newcode/week%202/2023/03/06/_Lists.html"},"url":"https://cubnavarro.github.io/Firstproject/newcode/week%202/2023/03/06/_Lists.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Firstproject/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://cubnavarro.github.io/Firstproject/feed.xml" title="APCSP" /><link rel="shortcut icon" type="image/x-icon" href="/Firstproject/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Lists and Dictionary</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-06T00:00:00-06:00" itemprop="datePublished">
-        Mar 6, 2023
-      </time>• 
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">Caleb Navarro</span></span>
-       • <span class="read-time" title="Estimated read time">
-    
-    
-      4 min read
-    
-</span></p>
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
 
-    
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/Firstproject/categories/#Newcode">Newcode</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/Firstproject/categories/#Week 2">Week 2</a>
-        
-      
-      </p>
-    
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
 
-    
-      
-        <div class="pb-5 d-flex flex-justify-center">
-          <div class="px-2">
+  <div class="wrapper"><a class="site-title" rel="author" href="/Firstproject/">APCSP</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
 
-    <a href="https://github.com/CubNavarro/Firstproject/tree/master/_notebooks/2022-09-04_Lists.ipynb" role="button" target="_blank">
-<img class="notebook-badge-image" src="/Firstproject/assets/badges/github.svg" alt="View On GitHub">
-    </a>
-</div>
-
-          <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/CubNavarro/Firstproject/master?filepath=_notebooks%2F2022-09-04_Lists.ipynb" target="_blank">
-        <img class="notebook-badge-image" src="/Firstproject/assets/badges/binder.svg" alt="Open In Binder"/>
-    </a>
-</div>
-
-          <div class="px-2">
-    <a href="https://colab.research.google.com/github/CubNavarro/Firstproject/blob/master/_notebooks/2022-09-04_Lists.ipynb" target="_blank">
-        <img class="notebook-badge-image" src="/Firstproject/assets/badges/colab.svg" alt="Open In Colab"/>
-    </a>
-</div>
-          <div class="px-2">
-  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FCubNavarro%2FFirstproject%2Fblob%2Fmaster%2F_notebooks%2F2022-09-04_Lists.ipynb" target="_blank">
-      <img class="notebook-badge-image" src="/Firstproject/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
-  </a>
-</div>
-
-        </div>
-      </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#My-list-and-dictionary">My list and dictionary </a></li>
-<li class="toc-entry toc-h2"><a href="#Questions-with-Answers">Questions with Answers </a></li>
-</ul><!--
+        <div class="trigger"><a class="page-link" href="/Firstproject/_pages/Review.html">Review Page</a><a class="page-link" href="/Firstproject/vocab/">Vocabulary</a><a class="page-link" href="/Firstproject/about/">About Me</a><a class="page-link" href="/Firstproject/search/">Search</a><a class="page-link" href="/Firstproject/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -68,13 +80,9 @@
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="My-list-and-dictionary">
-<a class="anchor" href="#My-list-and-dictionary" aria-hidden="true"><span class="octicon octicon-link"></span></a>My list and dictionary<a class="anchor-link" href="#My-list-and-dictionary"> </a>
-</h2>
-<p>I switched it up and made some lists and dictionaries</p>
+<h2 id="My-list-and-dictionary">My list and dictionary<a class="anchor-link" href="#My-list-and-dictionary"> </a></h2><p>I switched it up and made some lists and dictionaries</p>
 <p>These are just the Questions</p>
 
 </div>
@@ -88,12 +96,12 @@
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">"What is your first name?"</span><span class="p">,</span>
-    <span class="s2">"How Old are you?"</span><span class="p">,</span>
-    <span class="s2">"What is your favorite food?"</span><span class="p">,</span>
-    <span class="s2">"What is your favorite color?"</span><span class="p">,</span>
-    <span class="s2">"What is your favorite place?"</span><span class="p">,</span>
-    <span class="s2">"who are your friends"</span><span class="p">,</span>
+    <span class="s2">&quot;What is your first name?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;How Old are you?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;What is your favorite food?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;What is your favorite color?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;What is your favorite place?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;who are your friends&quot;</span><span class="p">,</span>
 <span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span>
 </pre></div>
@@ -108,7 +116,7 @@
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>['What is your first name?', 'how Old are you?', 'What is your favorite food?', 'What is your favorite color?', 'What is your favorite place?', 'who are your friends']
+<pre>[&#39;What is your first name?&#39;, &#39;how Old are you?&#39;, &#39;What is your favorite food?&#39;, &#39;What is your favorite color?&#39;, &#39;What is your favorite place?&#39;, &#39;who are your friends&#39;]
 </pre>
 </div>
 </div>
@@ -119,13 +127,9 @@
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Questions-with-Answers">
-<a class="anchor" href="#Questions-with-Answers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questions with Answers<a class="anchor-link" href="#Questions-with-Answers"> </a>
-</h2>
-<p>These questiona are the ones with answers</p>
+<h2 id="Questions-with-Answers">Questions with Answers<a class="anchor-link" href="#Questions-with-Answers"> </a></h2><p>These questiona are the ones with answers</p>
 
 </div>
 </div>
@@ -137,51 +141,51 @@
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"What is your first name?"</span><span class="p">)</span>
-<span class="n">name</span> <span class="o">=</span> <span class="s2">"Big Man Nathan"</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;What is your first name?&quot;</span><span class="p">)</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Big Man Nathan&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
 
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"How old are you?"</span><span class="p">)</span>
-<span class="n">age</span> <span class="o">=</span> <span class="s2">"16"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;How old are you?&quot;</span><span class="p">)</span>
+<span class="n">age</span> <span class="o">=</span> <span class="s2">&quot;16&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
 
 
 <span class="c1"># variable of type integer</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"What is your favorite Food"</span><span class="p">)</span>
-<span class="n">food</span> <span class="o">=</span> <span class="s2">"Pizza"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;What is your favorite Food&quot;</span><span class="p">)</span>
+<span class="n">food</span> <span class="o">=</span> <span class="s2">&quot;Pizza&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">food</span><span class="p">)</span>
 
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"How old are you?"</span><span class="p">)</span>
-<span class="n">color</span> <span class="o">=</span> <span class="s2">"Hot pink"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;How old are you?&quot;</span><span class="p">)</span>
+<span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;Hot pink&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">color</span><span class="p">)</span>
 
 
 <span class="c1"># variable of type float</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"What is your favoirte place"</span><span class="p">)</span>
-<span class="n">place</span> <span class="o">=</span> <span class="s2">"Europe"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;What is your favoirte place&quot;</span><span class="p">)</span>
+<span class="n">place</span> <span class="o">=</span> <span class="s2">&quot;Europe&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">place</span><span class="p">)</span>
 
 
 <span class="c1"># variable of type list (many values in one variable)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Who are your friends"</span><span class="p">)</span>
-<span class="n">friends</span> <span class="o">=</span> <span class="s2">"The leader of the friend group, Gene, Caleb"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Who are your friends&quot;</span><span class="p">)</span>
+<span class="n">friends</span> <span class="o">=</span> <span class="s2">&quot;The leader of the friend group, Gene, Caleb&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">friends</span><span class="p">)</span>
 
 
 <span class="c1"># variable of type dictionary (a group of keys and values)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Is this you?"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Is this you?&quot;</span><span class="p">)</span>
 <span class="n">person</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"Your Name"</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span>
+    <span class="s2">&quot;Your Name&quot;</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span>
 
-    <span class="s2">"Your Age"</span><span class="p">:</span> <span class="n">age</span><span class="p">,</span>
+    <span class="s2">&quot;Your Age&quot;</span><span class="p">:</span> <span class="n">age</span><span class="p">,</span>
 
-    <span class="s2">"Favorite Food"</span><span class="p">:</span> <span class="n">food</span><span class="p">,</span>
+    <span class="s2">&quot;Favorite Food&quot;</span><span class="p">:</span> <span class="n">food</span><span class="p">,</span>
 
-    <span class="s2">"Favorite Place"</span><span class="p">:</span> <span class="n">place</span><span class="p">,</span>
+    <span class="s2">&quot;Favorite Place&quot;</span><span class="p">:</span> <span class="n">place</span><span class="p">,</span>
 
-    <span class="s2">"Your Friends"</span><span class="p">:</span> <span class="n">friends</span>
+    <span class="s2">&quot;Your Friends&quot;</span><span class="p">:</span> <span class="n">friends</span>
 <span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">person</span><span class="p">)</span>
 </pre></div>
@@ -209,7 +213,7 @@ Europe
 Who are your friends
 The leader of the friend group, Gene, Caleb
 Is this you?
-{'Your Name': 'Big Man Nathan', 'Your Age': '16', 'Favorite Food': 'Pizza', 'Favorite Place': 'Europe', 'Your Friends': 'The leader of the friend group, Gene, Caleb'}
+{&#39;Your Name&#39;: &#39;Big Man Nathan&#39;, &#39;Your Age&#39;: &#39;16&#39;, &#39;Favorite Food&#39;: &#39;Pizza&#39;, &#39;Favorite Place&#39;: &#39;Europe&#39;, &#39;Your Friends&#39;: &#39;The leader of the friend group, Gene, Caleb&#39;}
 </pre>
 </div>
 </div>
@@ -233,52 +237,52 @@ Is this you?
 
 <span class="c1"># Append to List a Dictionary of key/values related to a person and cars</span>
 <span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Caleb"</span><span class="p">,</span>
-    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Navarro"</span><span class="p">,</span>
-    <span class="s2">"age"</span><span class="p">:</span> <span class="s2">"16"</span><span class="p">,</span>
-    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"April 14"</span><span class="p">,</span>
-    <span class="s2">"Residence"</span><span class="p">:</span> <span class="s2">"San Diego"</span><span class="p">,</span>
-    <span class="s2">"Email"</span><span class="p">:</span> <span class="s2">"caleb.evan.navarro@gmail.com"</span><span class="p">,</span>
-    <span class="s2">"Owns_Cars"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Bugatti La Voiture Noire"</span><span class="p">,</span> <span class="s2">"Audi A4"</span><span class="p">]</span>
+    <span class="s2">&quot;FirstName&quot;</span><span class="p">:</span> <span class="s2">&quot;Caleb&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;LastName&quot;</span><span class="p">:</span> <span class="s2">&quot;Navarro&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="s2">&quot;16&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;April 14&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;caleb.evan.navarro@gmail.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Owns_Cars&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Bugatti La Voiture Noire&quot;</span><span class="p">,</span> <span class="s2">&quot;Audi A4&quot;</span><span class="p">]</span>
 <span class="p">})</span>
 
 <span class="c1"># Append to List a 2nd Dictionary of key/values</span>
 <span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Billy"</span><span class="p">,</span>
-    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Bob"</span><span class="p">,</span>
-    <span class="s2">"age"</span><span class="p">:</span> <span class="s2">"21"</span><span class="p">,</span>
-    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"December 21"</span><span class="p">,</span>
-    <span class="s2">"Residence"</span><span class="p">:</span> <span class="s2">"Europe"</span><span class="p">,</span>
-    <span class="s2">"Email"</span><span class="p">:</span> <span class="s2">"bigboybilly@gmail.com"</span><span class="p">,</span>
-    <span class="s2">"Owns_Cars"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Tesla"</span><span class="p">]</span>
+    <span class="s2">&quot;FirstName&quot;</span><span class="p">:</span> <span class="s2">&quot;Billy&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;LastName&quot;</span><span class="p">:</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="s2">&quot;21&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;December 21&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;Europe&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;bigboybilly@gmail.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Owns_Cars&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Tesla&quot;</span><span class="p">]</span>
 <span class="p">})</span>
 
 <span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Nathan"</span><span class="p">,</span>
-    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Capule"</span><span class="p">,</span>
-    <span class="s2">"age"</span><span class="p">:</span> <span class="s2">"16"</span><span class="p">,</span>
-    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"July 8"</span><span class="p">,</span>
-    <span class="s2">"Residence"</span><span class="p">:</span> <span class="s2">"Star Killer Base"</span><span class="p">,</span>
-    <span class="s2">"Email"</span><span class="p">:</span> <span class="s2">"plrttapotty@gmail.com"</span><span class="p">,</span>
-    <span class="s2">"Owns_Cars"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"2019 Lamborghini Huracan Performante, Gerald R. Ford-class aircraft carrier, Starship"</span><span class="p">]</span>
+    <span class="s2">&quot;FirstName&quot;</span><span class="p">:</span> <span class="s2">&quot;Nathan&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;LastName&quot;</span><span class="p">:</span> <span class="s2">&quot;Capule&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="s2">&quot;16&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;July 8&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;Star Killer Base&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;plrttapotty@gmail.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Owns_Cars&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;2019 Lamborghini Huracan Performante, Gerald R. Ford-class aircraft carrier, Starship&quot;</span><span class="p">]</span>
 <span class="p">})</span>
 
 <span class="c1"># Print the data structure</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">print_data</span><span class="p">(</span><span class="n">d_rec</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FirstName"</span><span class="p">],</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"LastName"</span><span class="p">])</span>  <span class="c1"># using comma puts space between values</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"age:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"age"</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Residence:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"Residence"</span><span class="p">])</span> <span class="c1"># \t is a tab indent</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Birth Day:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"DOB"</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Cars: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>  <span class="c1"># end="" make sure no return occurs</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"Owns_Cars"</span><span class="p">]))</span>  <span class="c1"># join allows printing a string list with separator</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;FirstName&quot;</span><span class="p">],</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;LastName&quot;</span><span class="p">])</span>  <span class="c1"># using comma puts space between values</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;age:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;age&quot;</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Residence:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Residence&quot;</span><span class="p">])</span> <span class="c1"># \t is a tab indent</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Birth Day:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;DOB&quot;</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Cars: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>  <span class="c1"># end=&quot;&quot; make sure no return occurs</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Owns_Cars&quot;</span><span class="p">]))</span>  <span class="c1"># join allows printing a string list with separator</span>
     <span class="nb">print</span><span class="p">()</span>
 
 
 <span class="c1"># for loop algorithm iterates on length of InfoDb</span>
 <span class="k">def</span> <span class="nf">for_loop</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"For loop output</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;For loop output</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">InfoDb</span><span class="p">:</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
 
@@ -295,7 +299,7 @@ Is this you?
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[{'FirstName': 'Caleb', 'LastName': 'Navarro', 'age': '16', 'DOB': 'April 14', 'Residence': 'San Diego', 'Email': 'caleb.evan.navarro@gmail.com', 'Owns_Cars': ['Bugatti La Voiture Noire', 'Audi A4']}, {'FirstName': 'Billy', 'LastName': 'Bob', 'age': '21', 'DOB': 'December 21', 'Residence': 'Europe', 'Email': 'bigboybilly@gmail.com', 'Owns_Cars': ['Tesla']}, {'FirstName': 'Nathan', 'LastName': 'Capule', 'age': '16', 'DOB': 'July 8', 'Residence': 'Star Killer Base', 'Email': 'plrttapotty@gmail.com', 'Owns_Cars': ['2019 Lamborghini Huracan Performante, Gerald R. Ford-class aircraft carrier, Starship']}]
+<pre>[{&#39;FirstName&#39;: &#39;Caleb&#39;, &#39;LastName&#39;: &#39;Navarro&#39;, &#39;age&#39;: &#39;16&#39;, &#39;DOB&#39;: &#39;April 14&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;caleb.evan.navarro@gmail.com&#39;, &#39;Owns_Cars&#39;: [&#39;Bugatti La Voiture Noire&#39;, &#39;Audi A4&#39;]}, {&#39;FirstName&#39;: &#39;Billy&#39;, &#39;LastName&#39;: &#39;Bob&#39;, &#39;age&#39;: &#39;21&#39;, &#39;DOB&#39;: &#39;December 21&#39;, &#39;Residence&#39;: &#39;Europe&#39;, &#39;Email&#39;: &#39;bigboybilly@gmail.com&#39;, &#39;Owns_Cars&#39;: [&#39;Tesla&#39;]}, {&#39;FirstName&#39;: &#39;Nathan&#39;, &#39;LastName&#39;: &#39;Capule&#39;, &#39;age&#39;: &#39;16&#39;, &#39;DOB&#39;: &#39;July 8&#39;, &#39;Residence&#39;: &#39;Star Killer Base&#39;, &#39;Email&#39;: &#39;plrttapotty@gmail.com&#39;, &#39;Owns_Cars&#39;: [&#39;2019 Lamborghini Huracan Performante, Gerald R. Ford-class aircraft carrier, Starship&#39;]}]
 For loop output
 
 Caleb Navarro
@@ -339,46 +343,46 @@ Nathan Capule
 <span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
 
 <span class="k">def</span> <span class="nf">question_with_response</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Question: "</span> <span class="o">+</span> <span class="n">prompt</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Question: &quot;</span> <span class="o">+</span> <span class="n">prompt</span><span class="p">)</span>
     <span class="n">msg</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">msg</span>
 
 <span class="k">def</span> <span class="nf">question_and_answer</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Question: "</span> <span class="o">+</span> <span class="n">prompt</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Question: &quot;</span> <span class="o">+</span> <span class="n">prompt</span><span class="p">)</span>
     <span class="n">msg</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Answer: "</span> <span class="o">+</span> <span class="n">msg</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Answer: &quot;</span> <span class="o">+</span> <span class="n">msg</span><span class="p">)</span>
 
-<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">"How has your day been today?"</span><span class="p">)</span>
-<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">"Do you have friends?"</span><span class="p">)</span>
-<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">"Do you like ice cream"</span><span class="p">)</span>
+<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">&quot;How has your day been today?&quot;</span><span class="p">)</span>
+<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">&quot;Do you have friends?&quot;</span><span class="p">)</span>
+<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">&quot;Do you like ice cream&quot;</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Hello, '</span> <span class="o">+</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">" running "</span> <span class="o">+</span> <span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"You will be asked "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" questions."</span><span class="p">)</span>
-<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">"Are you ready for some questions?"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, &#39;</span> <span class="o">+</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; running &quot;</span> <span class="o">+</span> <span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You will be asked &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; questions.&quot;</span><span class="p">)</span>
+<span class="n">question_and_answer</span><span class="p">(</span><span class="s2">&quot;Are you ready for some questions?&quot;</span><span class="p">)</span>
 
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">"what is 10+6?"</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">"16"</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is correct!"</span><span class="p">)</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;what is 10+6?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;16&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is incorrect!"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">"What many tacos should you eat a day?"</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">"42,069"</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is correct!"</span><span class="p">)</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What many tacos should you eat a day?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;42,069&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is incorrect!"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span>
 
-<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">"From 1 to 10 how hot is toby?"</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">"69"</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is correct!"</span><span class="p">)</span>
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;From 1 to 10 how hot is toby?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;69&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
     <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">" is incorrect!"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">" you scored "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span><span class="s2">"/"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; you scored &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span><span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -422,13 +426,33 @@ Caleb you scored 0/3
 
 
 
-  </div><!-- from https://github.com/utterance/utterances -->
-<script src="https://utteranc.es/client.js"
-        repo="CubNavarro/Firstproject"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script><a class="u-url" href="/Firstproject/newcode/week%202/2023/03/06/_Lists.html" hidden></a>
-</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Firstproject/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://cubnavarro.github.io/Firstproject/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Firstproject/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>My website for the APCSP class.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

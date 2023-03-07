@@ -1,60 +1,77 @@
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Java Script | APCSP</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Java Script" />
+<meta name="author" content="Caleb Navarro" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My website for the APCSP class." />
+<meta property="og:description" content="My website for the APCSP class." />
+<link rel="canonical" href="https://cubnavarro.github.io/Firstproject/week%205/2022/09/23/java.html" />
+<meta property="og:url" content="https://cubnavarro.github.io/Firstproject/week%205/2022/09/23/java.html" />
+<meta property="og:site_name" content="APCSP" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-23T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Java Script" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Caleb Navarro"},"dateModified":"2022-09-23T00:00:00-05:00","datePublished":"2022-09-23T00:00:00-05:00","description":"My website for the APCSP class.","headline":"Java Script","mainEntityOfPage":{"@type":"WebPage","@id":"https://cubnavarro.github.io/Firstproject/week%205/2022/09/23/java.html"},"url":"https://cubnavarro.github.io/Firstproject/week%205/2022/09/23/java.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Firstproject/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://cubnavarro.github.io/Firstproject/feed.xml" title="APCSP" /><link rel="shortcut icon" type="image/x-icon" href="/Firstproject/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Java Script</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-23T00:00:00-05:00" itemprop="datePublished">
-        Sep 23, 2022
-      </time>• 
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">Caleb Navarro</span></span>
-       • <span class="read-time" title="Estimated read time">
-    
-    
-      4 min read
-    
-</span></p>
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
 
-    
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/Firstproject/categories/#Week 5">Week 5</a>
-        
-      
-      </p>
-    
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
 
-    
-      
-        <div class="pb-5 d-flex flex-justify-center">
-          <div class="px-2">
+  <div class="wrapper"><a class="site-title" rel="author" href="/Firstproject/">APCSP</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
 
-    <a href="https://github.com/CubNavarro/Firstproject/tree/master/_notebooks/2022-09-23-java.ipynb" role="button" target="_blank">
-<img class="notebook-badge-image" src="/Firstproject/assets/badges/github.svg" alt="View On GitHub">
-    </a>
-</div>
-
-          <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/CubNavarro/Firstproject/master?filepath=_notebooks%2F2022-09-23-java.ipynb" target="_blank">
-        <img class="notebook-badge-image" src="/Firstproject/assets/badges/binder.svg" alt="Open In Binder"/>
-    </a>
-</div>
-
-          <div class="px-2">
-    <a href="https://colab.research.google.com/github/CubNavarro/Firstproject/blob/master/_notebooks/2022-09-23-java.ipynb" target="_blank">
-        <img class="notebook-badge-image" src="/Firstproject/assets/badges/colab.svg" alt="Open In Colab"/>
-    </a>
-</div>
-          <div class="px-2">
-  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FCubNavarro%2FFirstproject%2Fblob%2Fmaster%2F_notebooks%2F2022-09-23-java.ipynb" target="_blank">
-      <img class="notebook-badge-image" src="/Firstproject/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
-  </a>
-</div>
-
-        </div>
-      </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-</ul><!--
+        <div class="trigger"><a class="page-link" href="/Firstproject/_pages/Review.html">Review Page</a><a class="page-link" href="/Firstproject/vocab/">Vocabulary</a><a class="page-link" href="/Firstproject/about/">About Me</a><a class="page-link" href="/Firstproject/search/">Search</a><a class="page-link" href="/Firstproject/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -90,7 +107,7 @@
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">function</span> <span class="n">logItType</span><span class="p">(</span><span class="n">output</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">typeof</span> <span class="n">output</span><span class="p">,</span> <span class="s2">";"</span><span class="p">,</span> <span class="n">output</span><span class="p">);</span>
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">typeof</span> <span class="n">output</span><span class="p">,</span> <span class="s2">&quot;;&quot;</span><span class="p">,</span> <span class="n">output</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 
@@ -113,7 +130,7 @@
     <span class="n">this</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
     <span class="n">this</span><span class="o">.</span><span class="n">ghID</span> <span class="o">=</span> <span class="n">ghID</span><span class="p">;</span>
     <span class="n">this</span><span class="o">.</span><span class="n">classOf</span> <span class="o">=</span> <span class="n">classOf</span><span class="p">;</span>
-    <span class="n">this</span><span class="o">.</span><span class="n">role</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
+    <span class="n">this</span><span class="o">.</span><span class="n">role</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
     <span class="n">this</span><span class="o">.</span><span class="n">School</span> <span class="o">=</span> <span class="n">School</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -126,7 +143,7 @@
     <span class="n">this</span><span class="o">.</span><span class="n">School</span> <span class="o">=</span> <span class="n">School</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="o">//</span> <span class="n">define</span> <span class="n">a</span> <span class="n">JSON</span> <span class="n">conversion</span> <span class="s2">"method"</span> <span class="n">associated</span> <span class="k">with</span> <span class="n">Person</span>
+<span class="o">//</span> <span class="n">define</span> <span class="n">a</span> <span class="n">JSON</span> <span class="n">conversion</span> <span class="s2">&quot;method&quot;</span> <span class="n">associated</span> <span class="k">with</span> <span class="n">Person</span>
 <span class="n">Person</span><span class="o">.</span><span class="n">prototype</span><span class="o">.</span><span class="n">toJSON</span> <span class="o">=</span> <span class="n">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="n">const</span> <span class="n">obj</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">this</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">ghID</span><span class="p">:</span> <span class="n">this</span><span class="o">.</span><span class="n">ghID</span><span class="p">,</span> <span class="n">classOf</span><span class="p">:</span> <span class="n">this</span><span class="o">.</span><span class="n">classOf</span><span class="p">,</span> <span class="n">role</span><span class="p">:</span> <span class="n">this</span><span class="o">.</span><span class="n">role</span><span class="p">};</span>
     <span class="n">const</span> <span class="n">json</span> <span class="o">=</span> <span class="n">JSON</span><span class="o">.</span><span class="n">stringify</span><span class="p">(</span><span class="n">obj</span><span class="p">);</span>
@@ -134,20 +151,20 @@
 <span class="p">}</span>
 
 <span class="o">//</span> <span class="n">make</span> <span class="n">a</span> <span class="n">new</span> <span class="n">Person</span> <span class="ow">and</span> <span class="n">assign</span> <span class="n">to</span> <span class="n">variable</span> <span class="n">teacher</span>
-<span class="n">var</span> <span class="n">teacher</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Mr M"</span><span class="p">,</span> <span class="s2">"jm1021"</span><span class="p">,</span> <span class="mi">1977</span><span class="p">);</span>  <span class="o">//</span> <span class="nb">object</span> <span class="nb">type</span> <span class="ow">is</span> <span class="n">easy</span> <span class="n">to</span> <span class="n">work</span> <span class="k">with</span> <span class="ow">in</span> <span class="n">JavaScript</span>
-<span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">"teacher"</span><span class="p">)</span>
+<span class="n">var</span> <span class="n">teacher</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="mi">1977</span><span class="p">);</span>  <span class="o">//</span> <span class="nb">object</span> <span class="nb">type</span> <span class="ow">is</span> <span class="n">easy</span> <span class="n">to</span> <span class="n">work</span> <span class="k">with</span> <span class="ow">in</span> <span class="n">JavaScript</span>
+<span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">&quot;teacher&quot;</span><span class="p">)</span>
 <span class="n">logItType</span><span class="p">(</span><span class="n">teacher</span><span class="p">);</span>  <span class="o">//</span> <span class="n">before</span> <span class="n">role</span>
 <span class="n">logItType</span><span class="p">(</span><span class="n">teacher</span><span class="o">.</span><span class="n">toJSON</span><span class="p">());</span>  <span class="o">//</span> <span class="n">ok</span> <span class="n">to</span> <span class="n">do</span> <span class="n">this</span> <span class="n">even</span> <span class="n">though</span> <span class="n">role</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">yet</span> <span class="n">defined</span>
 
 <span class="o">//</span> <span class="n">Add</span> <span class="n">myself</span> <span class="k">as</span> <span class="n">a</span> <span class="n">new</span> <span class="n">person</span>
-<span class="n">var</span> <span class="n">caleb</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Caleb"</span><span class="p">,</span> <span class="s2">"CubNavarro"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">);</span>
-<span class="n">caleb</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">"Coolguy"</span><span class="p">)</span>
-<span class="n">caleb</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">"Del Norte"</span><span class="p">)</span>
+<span class="n">var</span> <span class="n">caleb</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Caleb&quot;</span><span class="p">,</span> <span class="s2">&quot;CubNavarro&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">);</span>
+<span class="n">caleb</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">&quot;Coolguy&quot;</span><span class="p">)</span>
+<span class="n">caleb</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">&quot;Del Norte&quot;</span><span class="p">)</span>
 <span class="n">logItType</span><span class="p">(</span><span class="n">caleb</span><span class="p">);</span>
 
 <span class="o">//</span> <span class="n">output</span> <span class="n">of</span> <span class="n">Object</span> <span class="ow">and</span> <span class="n">JSON</span><span class="o">/</span><span class="n">string</span> <span class="n">associated</span> <span class="k">with</span> <span class="n">Teacher</span>
-<span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">"Teacher"</span><span class="p">);</span>   <span class="o">//</span> <span class="nb">set</span> <span class="n">the</span> <span class="n">role</span>
-<span class="n">teacher</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">"Del Norte"</span><span class="p">)</span>
+<span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>   <span class="o">//</span> <span class="nb">set</span> <span class="n">the</span> <span class="n">role</span>
+<span class="n">teacher</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">&quot;Del Norte&quot;</span><span class="p">)</span>
 <span class="n">logItType</span><span class="p">(</span><span class="n">teacher</span><span class="p">);</span> 
 <span class="n">logItType</span><span class="p">(</span><span class="n">teacher</span><span class="o">.</span><span class="n">toJSON</span><span class="p">());</span>
 </pre></div>
@@ -163,25 +180,25 @@
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>object ; Person {
-  name: 'Mr M',
-  ghID: 'jm1021',
+  name: &#39;Mr M&#39;,
+  ghID: &#39;jm1021&#39;,
   classOf: 1977,
-  role: 'teacher',
+  role: &#39;teacher&#39;,
   School: undefined }
-string ; {"name":"Mr M","ghID":"jm1021","classOf":1977,"role":"teacher"}
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;role&#34;:&#34;teacher&#34;}
 object ; Person {
-  name: 'Caleb',
-  ghID: 'CubNavarro',
+  name: &#39;Caleb&#39;,
+  ghID: &#39;CubNavarro&#39;,
   classOf: 2024,
-  role: 'Coolguy',
-  School: 'Del Norte' }
+  role: &#39;Coolguy&#39;,
+  School: &#39;Del Norte&#39; }
 object ; Person {
-  name: 'Mr M',
-  ghID: 'jm1021',
+  name: &#39;Mr M&#39;,
+  ghID: &#39;jm1021&#39;,
   classOf: 1977,
-  role: 'Teacher',
-  School: 'Del Norte' }
-string ; {"name":"Mr M","ghID":"jm1021","classOf":1977,"role":"Teacher"}
+  role: &#39;Teacher&#39;,
+  School: &#39;Del Norte&#39; }
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;role&#34;:&#34;Teacher&#34;}
 </pre>
 </div>
 </div>
@@ -200,24 +217,24 @@ string ; {"name":"Mr M","ghID":"jm1021","classOf":1977,"role":"Teacher"}
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">var</span> <span class="n">students</span> <span class="o">=</span> <span class="p">[</span> 
-    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Toby"</span><span class="p">,</span> <span class="s2">"Tobyleeder"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">"Del Norte"</span><span class="p">),</span>
-    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Nathan"</span><span class="p">,</span> <span class="s2">"Nathan-Capule"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">"Del Norte"</span><span class="p">),</span>
-    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Gene"</span><span class="p">,</span> <span class="s2">"Gene"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">"Del Norte"</span><span class="p">),</span>
-    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Theo"</span><span class="p">,</span> <span class="s2">"Theothegreat"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">"Del Norte"</span><span class="p">),</span>
-    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"Caden"</span><span class="p">,</span> <span class="s2">"cadenthebot"</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">"Del Norte"</span><span class="p">),</span>
+    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Toby&quot;</span><span class="p">,</span> <span class="s2">&quot;Tobyleeder&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">&quot;Del Norte&quot;</span><span class="p">),</span>
+    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Nathan&quot;</span><span class="p">,</span> <span class="s2">&quot;Nathan-Capule&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">&quot;Del Norte&quot;</span><span class="p">),</span>
+    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Gene&quot;</span><span class="p">,</span> <span class="s2">&quot;Gene&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">&quot;Del Norte&quot;</span><span class="p">),</span>
+    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Theo&quot;</span><span class="p">,</span> <span class="s2">&quot;Theothegreat&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">&quot;Del Norte&quot;</span><span class="p">),</span>
+    <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&quot;Caden&quot;</span><span class="p">,</span> <span class="s2">&quot;cadenthebot&quot;</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="s2">&quot;Del Norte&quot;</span><span class="p">),</span>
 
 <span class="p">];</span>
 
 <span class="o">//</span> <span class="n">define</span> <span class="n">a</span> <span class="n">classroom</span> <span class="ow">and</span> <span class="n">build</span> <span class="n">Classroom</span> <span class="n">objects</span> <span class="ow">and</span> <span class="n">json</span>
 <span class="n">function</span> <span class="n">Classroom</span><span class="p">(</span><span class="n">teacher</span><span class="p">,</span> <span class="n">students</span><span class="p">){</span> <span class="o">//</span> <span class="mi">1</span> <span class="n">teacher</span><span class="p">,</span> <span class="n">many</span> <span class="n">student</span>
     <span class="o">//</span> <span class="n">start</span> <span class="n">Classroom</span> <span class="k">with</span> <span class="n">Teacher</span>
-    <span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">"Teacher"</span><span class="p">);</span>
-    <span class="n">teacher</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">"Del Norte"</span><span class="p">)</span>
+    <span class="n">teacher</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>
+    <span class="n">teacher</span><span class="o">.</span><span class="n">setSchool</span><span class="p">(</span><span class="s2">&quot;Del Norte&quot;</span><span class="p">)</span>
     <span class="n">this</span><span class="o">.</span><span class="n">teacher</span> <span class="o">=</span> <span class="n">teacher</span><span class="p">;</span>
     <span class="n">this</span><span class="o">.</span><span class="n">classroom</span> <span class="o">=</span> <span class="p">[</span><span class="n">teacher</span><span class="p">];</span>
     <span class="o">//</span> <span class="n">add</span> <span class="n">each</span> <span class="n">Student</span> <span class="n">to</span> <span class="n">Classroom</span>
     <span class="n">this</span><span class="o">.</span><span class="n">students</span> <span class="o">=</span> <span class="n">students</span><span class="p">;</span>
-    <span class="n">this</span><span class="o">.</span><span class="n">students</span><span class="o">.</span><span class="n">forEach</span><span class="p">(</span><span class="n">student</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="n">student</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">"Student"</span><span class="p">);</span> <span class="n">this</span><span class="o">.</span><span class="n">classroom</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="n">student</span><span class="p">);</span> <span class="p">});</span>
+    <span class="n">this</span><span class="o">.</span><span class="n">students</span><span class="o">.</span><span class="n">forEach</span><span class="p">(</span><span class="n">student</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="n">student</span><span class="o">.</span><span class="n">setRole</span><span class="p">(</span><span class="s2">&quot;Student&quot;</span><span class="p">);</span> <span class="n">this</span><span class="o">.</span><span class="n">classroom</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="n">student</span><span class="p">);</span> <span class="p">});</span>
     <span class="o">//</span> <span class="n">build</span> <span class="n">json</span><span class="o">/</span><span class="n">string</span> <span class="nb">format</span> <span class="n">of</span> <span class="n">Classroom</span>
     <span class="n">this</span><span class="o">.</span><span class="n">json</span> <span class="o">=</span> <span class="p">[];</span>
     <span class="n">this</span><span class="o">.</span><span class="n">classroom</span><span class="o">.</span><span class="n">forEach</span><span class="p">(</span><span class="n">person</span> <span class="o">=&gt;</span> <span class="n">this</span><span class="o">.</span><span class="n">json</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="n">person</span><span class="o">.</span><span class="n">toJSON</span><span class="p">()));</span>
@@ -244,44 +261,44 @@ string ; {"name":"Mr M","ghID":"jm1021","classOf":1977,"role":"Teacher"}
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>object ; [ Person {
-    name: 'Mr M',
-    ghID: 'jm1021',
+    name: &#39;Mr M&#39;,
+    ghID: &#39;jm1021&#39;,
     classOf: 1977,
-    role: 'Teacher',
-    School: 'Del Norte' },
+    role: &#39;Teacher&#39;,
+    School: &#39;Del Norte&#39; },
   Person {
-    name: 'Toby',
-    ghID: 'Tobyleeder',
+    name: &#39;Toby&#39;,
+    ghID: &#39;Tobyleeder&#39;,
     classOf: 2024,
-    role: 'Student',
-    School: 'Del Norte' },
+    role: &#39;Student&#39;,
+    School: &#39;Del Norte&#39; },
   Person {
-    name: 'Nathan',
-    ghID: 'Nathan-Capule',
+    name: &#39;Nathan&#39;,
+    ghID: &#39;Nathan-Capule&#39;,
     classOf: 2024,
-    role: 'Student',
-    School: 'Del Norte' },
+    role: &#39;Student&#39;,
+    School: &#39;Del Norte&#39; },
   Person {
-    name: 'Gene',
-    ghID: 'Gene',
+    name: &#39;Gene&#39;,
+    ghID: &#39;Gene&#39;,
     classOf: 2024,
-    role: 'Student',
-    School: 'Del Norte' },
+    role: &#39;Student&#39;,
+    School: &#39;Del Norte&#39; },
   Person {
-    name: 'Theo',
-    ghID: 'Theothegreat',
+    name: &#39;Theo&#39;,
+    ghID: &#39;Theothegreat&#39;,
     classOf: 2024,
-    role: 'Student',
-    School: 'Del Norte' },
+    role: &#39;Student&#39;,
+    School: &#39;Del Norte&#39; },
   Person {
-    name: 'Caden',
-    ghID: 'cadenthebot',
+    name: &#39;Caden&#39;,
+    ghID: &#39;cadenthebot&#39;,
     classOf: 2024,
-    role: 'Student',
-    School: 'Del Norte' } ]
+    role: &#39;Student&#39;,
+    School: &#39;Del Norte&#39; } ]
 string ; Mr M
-string ; {"name":"Mr M","ghID":"jm1021","classOf":1977,"role":"Teacher"}
-object ; { name: 'Mr M', ghID: 'jm1021', classOf: 1977, role: 'Teacher' }
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;role&#34;:&#34;Teacher&#34;}
+object ; { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#39;Teacher&#39; }
 </pre>
 </div>
 </div>
@@ -299,46 +316,46 @@ object ; { name: 'Mr M', ghID: 'jm1021', classOf: 1977, role: 'Teacher' }
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="o">//</span> <span class="n">define</span> <span class="n">an</span> <span class="n">HTML</span> <span class="n">conversion</span> <span class="s2">"method"</span> <span class="n">associated</span> <span class="k">with</span> <span class="n">Classroom</span>
+<div class=" highlight hl-python"><pre><span></span><span class="o">//</span> <span class="n">define</span> <span class="n">an</span> <span class="n">HTML</span> <span class="n">conversion</span> <span class="s2">&quot;method&quot;</span> <span class="n">associated</span> <span class="k">with</span> <span class="n">Classroom</span>
 <span class="n">Classroom</span><span class="o">.</span><span class="n">prototype</span><span class="o">.</span><span class="n">_toHtml</span> <span class="o">=</span> <span class="n">function</span><span class="p">()</span> <span class="p">{</span>
   <span class="o">//</span> <span class="n">HTML</span> <span class="n">Style</span> <span class="ow">is</span> <span class="n">build</span> <span class="n">using</span> <span class="n">inline</span> <span class="n">structure</span>
   <span class="n">var</span> <span class="n">style</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="s2">"display:inline-block;"</span> <span class="o">+</span>
-    <span class="s2">"border: 2px solid grey;"</span> <span class="o">+</span>
-    <span class="s2">"box-shadow: 0.8em 0.4em 0.4em grey;"</span>
+    <span class="s2">&quot;display:inline-block;&quot;</span> <span class="o">+</span>
+    <span class="s2">&quot;border: 2px solid grey;&quot;</span> <span class="o">+</span>
+    <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span>
   <span class="p">);</span>
 
   <span class="o">//</span> <span class="n">HTML</span> <span class="n">Body</span> <span class="n">of</span> <span class="n">Table</span> <span class="ow">is</span> <span class="n">build</span> <span class="k">as</span> <span class="n">a</span> <span class="n">series</span> <span class="n">of</span> <span class="n">concatenations</span> <span class="p">(</span><span class="o">+=</span><span class="p">)</span>
-  <span class="n">var</span> <span class="n">body</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
+  <span class="n">var</span> <span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
   <span class="o">//</span> <span class="n">Heading</span> <span class="k">for</span> <span class="n">Array</span> <span class="n">Columns</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;tr&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;th&gt;&lt;mark&gt;"</span> <span class="o">+</span> <span class="s2">"Name"</span> <span class="o">+</span> <span class="s2">"&lt;/mark&gt;&lt;/th&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;th&gt;&lt;mark&gt;"</span> <span class="o">+</span> <span class="s2">"GitHub ID"</span> <span class="o">+</span> <span class="s2">"&lt;/mark&gt;&lt;/th&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;th&gt;&lt;mark&gt;"</span> <span class="o">+</span> <span class="s2">"Class Of"</span> <span class="o">+</span> <span class="s2">"&lt;/mark&gt;&lt;/th&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;th&gt;&lt;mark&gt;"</span> <span class="o">+</span> <span class="s2">"Role"</span> <span class="o">+</span> <span class="s2">"&lt;/mark&gt;&lt;/th&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;th&gt;&lt;mark&gt;"</span> <span class="o">+</span> <span class="s2">"School"</span> <span class="o">+</span> <span class="s2">"&lt;/mark&gt;&lt;th&gt;"</span><span class="p">;</span>
-  <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;/tr&gt;"</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Name&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;GitHub ID&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Class Of&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Role&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;School&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;th&gt;&quot;</span><span class="p">;</span>
+  <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/tr&gt;&quot;</span><span class="p">;</span>
   <span class="o">//</span> <span class="n">Data</span> <span class="n">of</span> <span class="n">Array</span><span class="p">,</span> <span class="n">iterate</span> <span class="n">through</span> <span class="n">each</span> <span class="n">row</span> <span class="n">of</span> <span class="n">compsci</span><span class="o">.</span><span class="n">classroom</span> 
   <span class="k">for</span> <span class="p">(</span><span class="n">var</span> <span class="n">row</span> <span class="n">of</span> <span class="n">compsci</span><span class="o">.</span><span class="n">classroom</span><span class="p">)</span> <span class="p">{</span>
     <span class="o">//</span> <span class="n">tr</span> <span class="k">for</span> <span class="n">each</span> <span class="n">row</span><span class="p">,</span> <span class="n">a</span> <span class="n">new</span> <span class="n">line</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;tr&gt;"</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
     <span class="o">//</span> <span class="n">td</span> <span class="k">for</span> <span class="n">each</span> <span class="n">column</span> <span class="n">of</span> <span class="n">data</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;td&gt;"</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">name</span> <span class="o">+</span> <span class="s2">"&lt;/td&gt;"</span><span class="p">;</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;td&gt;"</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">ghID</span> <span class="o">+</span> <span class="s2">"&lt;/td&gt;"</span><span class="p">;</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;td&gt;"</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">classOf</span> <span class="o">+</span> <span class="s2">"&lt;/td&gt;"</span><span class="p">;</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;td&gt;"</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">role</span> <span class="o">+</span> <span class="s2">"&lt;/td&gt;"</span><span class="p">;</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;td&gt;"</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">School</span> <span class="o">+</span> <span class="s2">"&lt;/td&gt;"</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">ghID</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">classOf</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">role</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">School</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="o">//</span> <span class="n">tr</span> <span class="n">to</span> <span class="n">end</span> <span class="n">line</span>
-    <span class="n">body</span> <span class="o">+=</span> <span class="s2">"&lt;tr&gt;"</span><span class="p">;</span>
+    <span class="n">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
   <span class="p">}</span>
 
    <span class="o">//</span> <span class="n">Build</span> <span class="ow">and</span> <span class="n">HTML</span> <span class="n">fragment</span> <span class="n">of</span> <span class="n">div</span><span class="p">,</span> <span class="n">table</span><span class="p">,</span> <span class="n">table</span> <span class="n">body</span>
   <span class="k">return</span> <span class="p">(</span>
-    <span class="s2">"&lt;div style='"</span> <span class="o">+</span> <span class="n">style</span> <span class="o">+</span> <span class="s2">"'&gt;"</span> <span class="o">+</span>
-      <span class="s2">"&lt;table&gt;"</span> <span class="o">+</span>
+    <span class="s2">&quot;&lt;div style=&#39;&quot;</span> <span class="o">+</span> <span class="n">style</span> <span class="o">+</span> <span class="s2">&quot;&#39;&gt;&quot;</span> <span class="o">+</span>
+      <span class="s2">&quot;&lt;table&gt;&quot;</span> <span class="o">+</span>
         <span class="n">body</span> <span class="o">+</span>
-      <span class="s2">"&lt;/table&gt;"</span> <span class="o">+</span>
-    <span class="s2">"&lt;/div&gt;"</span>
+      <span class="s2">&quot;&lt;/table&gt;&quot;</span> <span class="o">+</span>
+    <span class="s2">&quot;&lt;/div&gt;&quot;</span>
   <span class="p">);</span>
 
 <span class="p">}</span>
@@ -358,63 +375,7 @@ object ; { name: 'Mr M', ghID: 'jm1021', classOf: 1977, role: 'Teacher' }
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<div style="display:inline-block;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;"><table>
-<tr>
-<th><mark>Name</mark></th>
-<th><mark>GitHub ID</mark></th>
-<th><mark>Class Of</mark></th>
-<th><mark>Role</mark></th>
-<th><mark>School</mark></th>
-<th>&lt;/tr&gt;</th>
-</tr>
-<tr>
-<td>Mr M</td>
-<td>jm1021</td>
-<td>1977</td>
-<td>Teacher</td>
-<td>Del Norte</td>
-</tr>
-<tr></tr>
-<tr>
-<td>Toby</td>
-<td>Tobyleeder</td>
-<td>2024</td>
-<td>Student</td>
-<td>Del Norte</td>
-</tr>
-<tr></tr>
-<tr>
-<td>Nathan</td>
-<td>Nathan-Capule</td>
-<td>2024</td>
-<td>Student</td>
-<td>Del Norte</td>
-</tr>
-<tr></tr>
-<tr>
-<td>Gene</td>
-<td>Gene</td>
-<td>2024</td>
-<td>Student</td>
-<td>Del Norte</td>
-</tr>
-<tr></tr>
-<tr>
-<td>Theo</td>
-<td>Theothegreat</td>
-<td>2024</td>
-<td>Student</td>
-<td>Del Norte</td>
-</tr>
-<tr></tr>
-<tr>
-<td>Caden</td>
-<td>cadenthebot</td>
-<td>2024</td>
-<td>Student</td>
-<td>Del Norte</td>
-</tr>
-<tr>&lt;/table&gt;&lt;/div&gt;
+<div style="display:inline-block;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;"><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class Of</mark></th><th><mark>Role</mark></th><th><mark>School</mark><th>&lt;/tr&gt;<tr><td>Mr M</td><td>jm1021</td><td>1977</td><td>Teacher</td><td>Del Norte</td><tr><tr><td>Toby</td><td>Tobyleeder</td><td>2024</td><td>Student</td><td>Del Norte</td><tr><tr><td>Nathan</td><td>Nathan-Capule</td><td>2024</td><td>Student</td><td>Del Norte</td><tr><tr><td>Gene</td><td>Gene</td><td>2024</td><td>Student</td><td>Del Norte</td><tr><tr><td>Theo</td><td>Theothegreat</td><td>2024</td><td>Student</td><td>Del Norte</td><tr><tr><td>Caden</td><td>cadenthebot</td><td>2024</td><td>Student</td><td>Del Norte</td><tr>&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
@@ -428,23 +389,36 @@ object ; { name: 'Mr M', ghID: 'jm1021', classOf: 1977, role: 'Teacher' }
 &lt;/div&gt;
  
 
-</tr>
-</table></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></th></th></tr></table></div></div></div></div></div></div></div>
 
 
-  </div><!-- from https://github.com/utterance/utterances -->
-<script src="https://utteranc.es/client.js"
-        repo="CubNavarro/Firstproject"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script><a class="u-url" href="/Firstproject/week%205/2022/09/23/java.html" hidden></a>
-</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Firstproject/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://cubnavarro.github.io/Firstproject/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Firstproject/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>My website for the APCSP class.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
