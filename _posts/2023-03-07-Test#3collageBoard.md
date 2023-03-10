@@ -48,6 +48,6 @@ This question was super long and was really difficult for me atleast and I think
 
 ### Question 39
 
-![]({{site.baseurl }}/images/CSPquestion38.png)
+![]({{site.baseurl }}/images/CSPquestion39.png)
 
 This question was not hard for me and I really understood how to do it I just made a simple mistake and feel really stupid because the robot questions are really easy for me and I have a good understanding of this question I just need to slow down and take my time in order to read the question correct and get the right answer
