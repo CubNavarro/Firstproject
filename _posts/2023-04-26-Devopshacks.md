@@ -12,9 +12,9 @@ title: Dev Ops Hacks
 
 2. My screenshots
 
-![]({{site.baseurl }}/images/Devops#1.png)
+![]({{site.baseurl }}/images/Devopsbing.png)
 
-![]({{site.baseurl }}/images/Devops#2.png)
+![]({{site.baseurl }}/images/Devopsping.png)
 
 # AWS Database Hacks
 
@@ -40,11 +40,11 @@ title: Dev Ops Hacks
 
 # Hack 6
 
-![]({{site.baseurl }}/images/Devopsqu.png)
+![]({{site.baseurl }}/images/Devopsquestions.png)
 
 # Certbot Hacks
 
-![]({{site.baseurl }}/images/Devops#3.png)
+![]({{site.baseurl }}/images/Devopscert.png)
 
 Two well-known open-source cryptography libraries used to implement SSL/TLS protocols in diverse applications estionsare OpenSSL and LibreSSL. Although they are similar, their security characteristics differ in some ways.
 
