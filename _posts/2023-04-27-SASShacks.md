@@ -38,7 +38,15 @@ The SASS component makes the software more visually appealing by switching the b
 
 # Theme Changer
 
-[link]()
+[link](https://cubnavarro.github.io/Firstproject/_pages/themechanger.html)
+
+## Favicon
+
+I changed my favicon to my friend becuase i din't know what else to change it too
+
+![]({{site.baseurl }}/images/favicon.png)
+
+## Number guessing Game
 
 ![]({{site.baseurl }}/images/Numberguess.png)
 
