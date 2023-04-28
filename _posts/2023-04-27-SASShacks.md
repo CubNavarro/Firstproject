@@ -48,5 +48,5 @@ I changed my favicon to my friend becuase i din't know what else to change it to
 
 ## Number guessing Game
 
-![]({{site.baseurl }}/images/Numberguess.png)
+![]({{site.baseurl }}/images/numberguess.png)
 
