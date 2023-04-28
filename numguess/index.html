@@ -4,20 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Search | APCSP</title>
+<title>Number Guesser | APCSP</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Search" />
+<meta property="og:title" content="Number Guesser" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="My website for the APCSP class." />
 <meta property="og:description" content="My website for the APCSP class." />
-<link rel="canonical" href="https://cubnavarro.github.io/Firstproject/search/" />
-<meta property="og:url" content="https://cubnavarro.github.io/Firstproject/search/" />
+<link rel="canonical" href="https://cubnavarro.github.io/Firstproject/numguess/" />
+<meta property="og:url" content="https://cubnavarro.github.io/Firstproject/numguess/" />
 <meta property="og:site_name" content="APCSP" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Search" />
+<meta property="twitter:title" content="Number Guesser" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"My website for the APCSP class.","headline":"Search","url":"https://cubnavarro.github.io/Firstproject/search/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"My website for the APCSP class.","headline":"Number Guesser","url":"https://cubnavarro.github.io/Firstproject/numguess/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Firstproject/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://cubnavarro.github.io/Firstproject/feed.xml" title="APCSP" /><link rel="shortcut icon" type="image/x-icon" href="/Firstproject/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -69,18 +69,110 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <!-- adapted from https://github.com/pmarsceill/just-the-docs -->
-<script type="text/javascript" src="/Firstproject/assets/js/search.js"></script>
-<script type="text/javascript" src="/Firstproject/assets/js/vendor/lunr.min.js"></script>
+        <html>
+  <head>
+    <title>Guess the Number</title>
+    <style>
+      /* Define variables for colors */
+      :root {
+        --primary-color: #50f34a;
+        --secondary-color: #f2f0ef;
+        --text-color: #000000;
+      }
+      
+      /* Use variables to style elements */
+      body {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Adjust this to your desired height */
+      }
+      
+      h1 {
+        color: var(--primary-color);
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      
+      p {
+        margin: 1rem 0;
+      }
+      
+      input[type="text"], button {
+        width: 100%;
+        max-width: 20rem;
+        margin-bottom: 1rem;
+      }
+      
+      input[type="text"] {
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.25rem;
+        font-size: 1.2rem;
+      }
+      
+      button {
+        background-color: var(--primary-color);
+        color: #ff0000;
+        border: none;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: darken(var(--primary-color), 10%);
+      }
+      
+      #result {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <h1>Guess the Number</h1>
+    <p>Try to guess the number between 1 and 100.</p>
+    <input type="text" id="guess" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Submit</button>
+    <p id="result"></p>
 
-<div class="search">
-    <div class="search-input-wrap">
-    <input type="text" class="js-search-input search-input input-block form-control" tabindex="0" placeholder="Search APCSP" aria-label="Search APCSP" autocomplete="off">
-    </div>
-    <br>
-    <div class="js-search-results search-results-wrap"></div>
-</div>
+    <script>
+      // Generate a random number between 1 and 100
+      const randomNumber = Math.floor(Math.random() * 100) + 1;
+      let attempts = 0;
 
+      function checkGuess() {
+        // Get the user's guess
+        const guess = parseInt(document.getElementById("guess").value);
+
+        // Increase the number of attempts
+        attempts++;
+
+        // Check if the guess is correct
+        if (guess === randomNumber) {
+          document.getElementById("result").innerHTML = `Congratulations! You guessed the number in ${attempts} attempts.`;
+        } else if (guess < randomNumber) {
+          document.getElementById("result").innerHTML = "Too low. Guess again.";
+        } else {
+          document.getElementById("result").innerHTML ="Too high. Guess again.";
+        }
+      }  
+      function goHome() {
+    // Redirect to home page
+    window.location.href = "https://ryanrob327.github.io/csp/";
+  }
+</script>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/Firstproject/"></data>
