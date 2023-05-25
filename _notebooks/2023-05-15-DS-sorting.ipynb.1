@@ -1,0 +1,447 @@
+{
+ "cells": [
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Sorting Algorithms\n",
+    "> Working with Data Structures and manipulating data.\n",
+    "\n",
+    "- toc: true\n",
+    "- categories: []\n",
+    "- type: pbl\n",
+    "- week: 34"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "[wget link](https://raw.githubusercontent.com/nighthawkcoders/APCSP/master/_notebooks/2023-05-15-DS-sorting.ipynb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Random List\n",
+      "[9, 62, 78, 54, 18, 74, 58, 84, 20, 46]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import random\n",
+    "\n",
+    "numbers = []\n",
+    "for i in range(10):\n",
+    "    numbers.append(random.randint(0,100))\n",
+    "print(\"Random List\")\n",
+    "print(numbers)"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Warm Up\n",
+    "\n",
+    "> Discuss with a partner... \n",
+    "What are some strategies you would use to sort this list? (Don't worry about writing code for now)\n",
+    "\n",
+    "- You can use either bubble sort or insertion sort. One approach is to compare each number with the one next to it and swap if the condition is met, otherwise, no swap is made."
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Explore\n",
+    "\n",
+    "Get into groups of 3\n",
+    "\n",
+    "We will be focusing on 4 algorithms today.\n",
+    "\n",
+    "We will look at the first one together, Bubble Sort\n",
+    "\n",
+    "![](images/bubble-sort.png)\n",
+    "\n",
+    "What is happening with this sort?\n",
+    "\n",
+    "In your groups you will each choose to be an expert on a sorting algorithm. Merge, Selection, and Insertion.\n",
+    "Take about 5 minutes to read about your algorithm (Geek for Geeks linked below) and be ready to explain it to your other group members. \n",
+    "\n",
+    "[Merge](https://www.geeksforgeeks.org/merge-sort/#) :\n",
+    "The array is split into smaller subarrays, each of which is individually sorted. These sorted subarrays are then merged to form the final sorted array.\n",
+    "\n",
+    "[Selection](https://www.geeksforgeeks.org/selection-sort/)\n",
+    "\n",
+    "[Insertion](https://www.geeksforgeeks.org/insertion-sort/)"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Practice\n",
+    "\n",
+    "[75, 17, 46, 80, 67, 45, 69, 79, 40, 0]\n",
+    "\n",
+    "How would you sort this list with... \n",
+    "- Bubble Sort: Iterate through each index of the list and compare numbers. If the left number is greater than the right number, swap them. Continue this process until the entire list is sorted in ascending order.\n",
+    "- Selection Sort: find the smallest number and move it to the correct position in the sorted portion of the list. Repeat this process until the entire list is sorted.\n",
+    "\n",
+    "\n",
+    "[88, 39, 53, 39, 58, 43, 74, 81, 71, 51]\n",
+    "\n",
+    "How would you sort this list with... \n",
+    "- Merge Sort: Divide the list into subarrays. Sort each subarray and merge them together to obtain the fully sorted list.\n",
+    "- Insertion Sort: Start with the leftmost number as a sorted segment. Insert the next element into the appropriate position within the sorted segment. Repeat this process until the entire list is sorted.\n",
+    "\n"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Sorting Words\n",
+    "> Sorting strings works in the same way as integers. Using your expertise algorithm, sort the following list of random words."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "[nltk_data] Downloading package words to\n",
+      "[nltk_data]     C:\\Users\\nicom\\AppData\\Roaming\\nltk_data...\n",
+      "[nltk_data]   Unzipping corpora\\words.zip.\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Random List\n",
+      "['beslash', 'hyperacusis', 'orthotypous', 'bementite', 'stripeless', 'surprise', 'prolactin', 'chlorophyllite', 'entapophysial', 'rynchosporous']\n"
+     ]
+    }
+   ],
+   "source": [
+    "import nltk\n",
+    "import random\n",
+    "\n",
+    "nltk.download('words')  # Download the word list (only required once)\n",
+    "\n",
+    "from nltk.corpus import words\n",
+    "\n",
+    "english_words = words.words()\n",
+    "#print(len(english_words))  # Prints the number of words in the list\n",
+    "\n",
+    "# You can now use the 'english_words' list in your code\n",
+    "\n",
+    "words = []\n",
+    "for i in range(10):\n",
+    "    words.append(english_words[random.randint(0,len(english_words))])\n",
+    "print(\"Random List\")\n",
+    "print(words)"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Discuss \n",
+    "Answer the following with your group.\n",
+    "\n",
+    "- When should you use each algorithm? What makes an algorithm the right choice?\n",
+    "\n",
+    "The choice of an algorithm depends on factors such as efficiency requirements, list size, and specific situations. FOr example, Bubble sort is suitable for smaller and simple lists due to its straightforward nature, comparing each element to the next. It becomes time-consuming for larger lists.\n",
+    "\n",
+    "- Given the following lists...\n",
+    "    - [0, 2, 6, 4, 8, 10]\n",
+    "    - [Elephant, Banana, Cat, Dog, Apple]\n",
+    "    - [29, 13, 83, 47, 32, 78, 100, 60, 65, 15, 24, 9, 40, 68, 53, 8, 90, 58, 39, 32, 34, 91, 74, 94, 49, 87, 34, 87, 23, 17, 27, 2, 38, 58, 84, 15, 9, 46, 74, 40, 44, 8, 55, 28, 81, 92, 81, 88, 53, 38, 19, 21, 9, 54, 21, 67, 3, 41, 3, 74, 13, 71, 70, 45, 5, 36, 80, 64, 97, 86, 73, 74, 94, 79, 49, 32, 20, 68, 64, 69, 1, 77, 31, 56, 100, 80, 48, 75, 85, 93, 67, 57, 26, 56, 43, 53, 59, 28, 67, 50]\n",
+    "Select the algorithm you believe is best for each, explain.\n",
+    "\n",
+    "I would use bubble sort to sort this list becasue it would be easiest and most efficient"
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## HACKS\n",
+    "> Provided below is a Bubble Sort Algorithm sorting a list of dictionaries based off of selected key.\n",
+    "\n",
+    "- Now it's time to do some coding...\n",
+    "\n",
+    "- Run code and then research and answer these questions...\n",
+    "    - Is a list and/or dictionary in python considered a primitive or collection type?  Why?\n",
+    "\n",
+    "    \n",
+    "A list and a dictionary in Python are considered collection types,  because they can store multiple values and have dynamic sizes.\n",
+    "\n",
+    "    - Is the list passed into bubble sort \"pass-by-value\" or \"pass-by-reference? Describe why in relation to output.\n",
+    "\n",
+    "The list passed into the bubble sort function is passed by reference, meaning modifications made to the list within the function affect the original list outside of the function. This is why the sorted list is reflected in the output when printed outside the function.\n",
+    "\n",
+    "- Implement new cell(s) and/or organize cells to do the following.\n",
+    "    - Create your own list\n",
+    "    - Use your expertise sorting algorithm (selection, insertion, merge). Note, I got my bubble sort from Geek for Geeks and made modifications. Each student in a group should have a unique algorithm.\n",
+    "    - Test your list with my bubble sort\n",
+    "    - Test my list with your new sort\n",
+    "    - Research analysis on sorting: comparisons, swaps, time.  Build this into your hacks.\n",
+    "    - Find a better way to print the data, key first, then other elements in viewable form.\n",
+    "\n",
+    "Use the code below to help guide your adventure"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Original\n",
+      "[{'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}]\n",
+      "name\n",
+      "[{'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}]\n",
+      "age\n",
+      "[{'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'John', 'age': 63, 'city': 'Eugene'}]\n",
+      "city\n",
+      "[{'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}]\n",
+      "\n",
+      "Selection Sort:\n",
+      "Original List:\n",
+      "[{'name': 'Bob', 'age': 21, 'city': 'Chicago'}, {'name': 'James', 'age': 25, 'city': 'Los Angeles'}, {'name': 'Charlie', 'age': 30, 'city': 'New York'}, {'name': 'David', 'age': 28, 'city': 'San Diego'}]\n",
+      "Sorting by key: name\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "Sorting by key: age\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "Sorting by key: city\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"\n",
+    "* Creator: Nighthawk Coding Society\n",
+    "Bubble Sort of a List with optimizations\n",
+    "\"\"\"\n",
+    "\n",
+    "# bubble sorts a list of dictionaries, base off of provided key\n",
+    "def bubbleSort(list, key):\n",
+    "    n = len(list) - 1  # list are indexed 0 to n-1, len is n\n",
+    "    \n",
+    "    # Traverse through list with i index\n",
+    "    for i in range(n):\n",
+    "        swapped = False  # optimize code, so it exits if now swaps on inner loop\n",
+    "\n",
+    "        # Inner traversal using j index\n",
+    "        for j in range(n-i):  # n-i as positions on right are in order in bubble\n",
+    " \n",
+    "            # Swap if the element KeyN is greater KeyN1\n",
+    "            keyN = list[j].get(key)\n",
+    "            keyN1 = list[j+1].get(key)\n",
+    "            if keyN > keyN1:\n",
+    "                swapped = True\n",
+    "                list[j], list[j + 1] = list[j + 1], list[j]  # single line swap\n",
+    "         \n",
+    "        if not swapped:  # if no swaps on inner pass, list is sorted\n",
+    "            return  # exit function\n",
+    "    \n",
+    "\n",
+    "if __name__ == \"__main__\":\n",
+    "    # list/dictionary sample\n",
+    "    list_of_people = [\n",
+    "    {\"name\": \"Risa\", \"age\": 18, \"city\": \"New York\"},\n",
+    "    {\"name\": \"John\", \"age\": 63, \"city\": \"Eugene\"},\n",
+    "    {\"name\": \"Shekar\", \"age\": 18, \"city\": \"San Francisco\"},\n",
+    "    {\"name\": \"Ryan\", \"age\": 21, \"city\": \"Los Angeles\"}\n",
+    "    ]\n",
+    "    \n",
+    "    # assuming uniform keys, pick 1st row as source of keys\n",
+    "    key_row = list_of_people[0]\n",
+    "\n",
+    "    # print list as defined\n",
+    "    print(\"Original\")\n",
+    "    print(list_of_people)\n",
+    "    \n",
+    "    for key in key_row:  # finds each key in the row\n",
+    "        print(key)\n",
+    "        bubbleSort(list_of_people, key)  # sort list of people\n",
+    "        print(list_of_people)\n",
+    "        \n",
+    "        \n",
+    "# new selection sort\n",
+    "print(\"\\nSelection Sort:\")\n",
+    "print(\"Original List:\")\n",
+    "print(my_list)\n",
+    "\n",
+    "for key in my_list[0]:\n",
+    "    print(\"Sorting by key:\", key)\n",
+    "    selectionSort(my_list, key)\n",
+    "    print(\"Sorted List:\")\n",
+    "    for item in my_list:\n",
+    "        print(item)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Bubble Sort:\n",
+      "Original List:\n",
+      "[{'name': 'James', 'age': 25, 'city': 'Los Angeles'}, {'name': 'Bob', 'age': 21, 'city': 'Chicago'}, {'name': 'Charlie', 'age': 30, 'city': 'New York'}, {'name': 'David', 'age': 28, 'city': 'San Diego'}]\n",
+      "Sorting by key: name\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "Sorting by key: age\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "Sorting by key: city\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "\n",
+      "Selection Sort:\n",
+      "Original List:\n",
+      "[{'name': 'Bob', 'age': 21, 'city': 'Chicago'}, {'name': 'James', 'age': 25, 'city': 'Los Angeles'}, {'name': 'Charlie', 'age': 30, 'city': 'New York'}, {'name': 'David', 'age': 28, 'city': 'San Diego'}]\n",
+      "Sorting by key: name\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "Sorting by key: age\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "Sorting by key: city\n",
+      "Sorted List:\n",
+      "{'name': 'Bob', 'age': 21, 'city': 'Chicago'}\n",
+      "{'name': 'James', 'age': 25, 'city': 'Los Angeles'}\n",
+      "{'name': 'Charlie', 'age': 30, 'city': 'New York'}\n",
+      "{'name': 'David', 'age': 28, 'city': 'San Diego'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "my_list = [\n",
+    "    {\"name\": \"James\", \"age\": 25, \"city\": \"Los Angeles\"},\n",
+    "    {\"name\": \"Bob\", \"age\": 21, \"city\": \"Chicago\"},\n",
+    "    {\"name\": \"Charlie\", \"age\": 30, \"city\": \"New York\"},\n",
+    "    {\"name\": \"David\", \"age\": 28, \"city\": \"San Diego\"}\n",
+    "]\n",
+    "\n",
+    "\n",
+    "def selectionSort(list, key):\n",
+    "    n = len(list)\n",
+    "    \n",
+    "    for i in range(n):\n",
+    "        min_index = i\n",
+    "        \n",
+    "        for j in range(i + 1, n):\n",
+    "            if list[j].get(key) < list[min_index].get(key):\n",
+    "                min_index = j\n",
+    "        \n",
+    "        if min_index != i:\n",
+    "            list[i], list[min_index] = list[min_index], list[i]\n",
+    "\n",
+    "\n",
+    "print(\"Bubble Sort:\")\n",
+    "print(\"Original List:\")\n",
+    "print(my_list)\n",
+    "\n",
+    "for key in my_list[0]:\n",
+    "    print(\"Sorting by key:\", key)\n",
+    "    bubbleSort(my_list, key)\n",
+    "    print(\"Sorted List:\")\n",
+    "    for item in my_list:\n",
+    "        print(item)\n",
+    "\n",
+    "# new selection sort\n",
+    "print(\"\\nSelection Sort:\")\n",
+    "print(\"Original List:\")\n",
+    "print(my_list)\n",
+    "\n",
+    "for key in my_list[0]:\n",
+    "    print(\"Sorting by key:\", key)\n",
+    "    selectionSort(my_list, key)\n",
+    "    print(\"Sorted List:\")\n",
+    "    for item in my_list:\n",
+    "        print(item)\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  },
+  "orig_nbformat": 4
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
