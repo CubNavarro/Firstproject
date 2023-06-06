@@ -592,8 +592,6 @@
   
 
   
-
-  
   
 
   
@@ -604,7 +602,7 @@
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "Theme Changer",
           "content": "Theme Changer . . Toggle Theme &lt;/html&gt; .",
           "url": "https://cubnavarro.github.io/Firstproject/_pages/themechanger.html",
@@ -633,7 +631,7 @@
   
 
   
-      ,"page19": {
+      ,"page18": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://cubnavarro.github.io/Firstproject/robots.txt",

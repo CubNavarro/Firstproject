@@ -213,9 +213,6 @@
 <loc>https://cubnavarro.github.io/Firstproject/about/</loc>
 </url>
 <url>
-<loc>https://cubnavarro.github.io/Firstproject/javagame/</loc>
-</url>
-<url>
 <loc>https://cubnavarro.github.io/Firstproject/</loc>
 </url>
 <url>
@@ -235,5 +232,9 @@
 </url>
 <url>
 <loc>https://cubnavarro.github.io/Firstproject/page4/</loc>
+</url>
+<url>
+<loc>https://cubnavarro.github.io/Firstproject/_pages/game.html</loc>
+<lastmod>2023-06-06T15:23:07-05:00</lastmod>
 </url>
 </urlset>
